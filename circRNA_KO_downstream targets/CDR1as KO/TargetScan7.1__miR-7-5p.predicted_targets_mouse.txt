@@ -1,0 +1,509 @@
+Target gene	Representative transcript	Gene name	3P-seq tags + 5	Conserved sites total	Conserved 8mer sites	Conserved 7mer-m8 sites	Conserved 7mer-A1 sites	Poorly conserved sites total	Poorly conserved 8mer sites	Poorly conserved 7mer-m8 sites	Poorly conserved 7mer-A1 sites	6mer sites	Representative miRNA	Cumulative weighted context++ score	Total context++ score	Aggregate PCT	Previous TargetScan publication(s)
+CDR1as	CDR1as	circular RNA CDR1as	0	47	34	13	0	83	0	76	7	9	mmu-miR-7a-5p	-92.97	-92.97	> 0.99	
+Slc5a3	ENSMUST00000113975.2	solute carrier family 5 (inositol transporters), member 3 	2953	1	0	1	0	3	0	3	0	4	mmu-miR-7b-5p	-2.18	-2.19	0.71	2007, 2009, 2011
+Rgs8	ENSMUST00000041776.6	regulator of G-protein signaling 8 	5	1	0	1	0	2	1	0	1	6	mmu-miR-7a-5p	-2.00	-2.00	0.53	2009, 2011
+Gm7120	ENSMUST00000177361.1	predicted gene 7120 	7	1	1	0	0	3	0	2	1	1	mmu-miR-7a-5p	-1.67	-2.07	< 0.1	
+Pole4	ENSMUST00000095786.5	polymerase (DNA-directed), epsilon 4 (p12 subunit) 	3377	2	2	0	0	0	0	0	0	2	mmu-miR-7a-5p	-1.23	-1.26	0.95	2005, 2007, 2009, 2011
+Chsy3	ENSMUST00000080721.4	chondroitin sulfate synthase 3 	54	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-1.17	-1.20	0.80	2007, 2009, 2011
+Rnf141	ENSMUST00000177236.2	ring finger protein 141 	3667	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-1.11	-1.11	0.75	2005, 2007, 2009, 2011
+Sp1	ENSMUST00000001326.6	trans-acting transcription factor 1 	1975	1	1	0	0	1	0	1	0	4	mmu-miR-7a-5p	-0.91	-0.96	0.51	2005, 2007, 2009, 2011
+Wasf3	ENSMUST00000016143.7	WAS protein family, member 3 	168	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.90	-1.04	0.39	2005, 2007, 2009, 2011
+Ddit4	ENSMUST00000020308.3	DNA-damage-inducible transcript 4 	591	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.88	-0.91	0.14	2005, 2007, 2009, 2011
+Crk	ENSMUST00000017920.8	v-crk sarcoma virus CT10 oncogene homolog (avian) 	2790	2	0	1	1	1	0	1	0	1	mmu-miR-7a-5p	-0.88	-1.38	0.72	2005, 2007, 2009, 2011
+Igsf3	ENSMUST00000043983.5	immunoglobulin superfamily, member 3 	93	1	0	0	1	1	0	1	0	4	mmu-miR-7a-5p	-0.86	-0.93	< 0.1	2005, 2007, 2009, 2011
+Mknk2	ENSMUST00000003433.6	MAP kinase-interacting serine/threonine kinase 2 	387	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.82	-0.89	0.20	2005, 2007, 2009, 2011
+Pde4d	ENSMUST00000120664.2	phosphodiesterase 4D, cAMP specific 	1752	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.78	-0.79	0.72	2005, 2007, 2011
+Plag1	ENSMUST00000003369.4	pleiomorphic adenoma gene 1 	77	1	0	1	0	1	0	0	1	1	mmu-miR-7b-5p	-0.75	-0.81	0.37	2005, 2007, 2011
+Trmt13	ENSMUST00000041524.5	tRNA methyltransferase 13 	181	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.75	-0.83	0.76	2007, 2009, 2011
+Ksr1	ENSMUST00000018478.5	kinase suppressor of ras 1 	497	1	1	0	0	2	0	2	0	0	mmu-miR-7a-5p	-0.71	-0.79	0.83	2007, 2009, 2011
+Klf4	ENSMUST00000107619.2	Kruppel-like factor 4 (gut) 	7	2	0	2	0	0	0	0	0	0	mmu-miR-7b-5p	-0.68	-0.68	0.92	2005, 2007, 2009, 2011
+Snca	ENSMUST00000163779.2	synuclein, alpha 	186	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.68	-0.68	0.50	2005, 2007, 2009, 2011
+Gtf2a1	ENSMUST00000021345.7	general transcription factor II A, 1 	109	3	1	1	1	0	0	0	0	2	mmu-miR-7a-5p	-0.67	-0.67	0.44	2011
+Rimkla	ENSMUST00000049994.7	ribosomal modification protein rimK-like family member A 	22	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.66	-0.66	0.54	2009, 2011
+Cry2	ENSMUST00000090559.6	cryptochrome 2 (photolyase-like) 	566	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.64	-0.64	0.58	2005, 2007, 2009, 2011
+Spata2	ENSMUST00000057627.10	spermatogenesis associated 2 	52	3	2	1	0	2	0	1	1	0	mmu-miR-7a-5p	-0.64	-0.94	0.96	2005, 2007, 2009, 2011
+Nrep	ENSMUST00000051087.9	neuronal regeneration related protein 	693	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.64	-0.64	0.75	2007, 2009, 2011
+Bloc1s4	ENSMUST00000071949.3	biogenesis of lysosomal organelles complex-1, subunit 4, cappuccino 	950	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.62	-0.62	0.72	2007, 2009, 2011
+Cggbp1	ENSMUST00000067744.7	CGG triplet repeat binding protein 1 	1096	1	1	0	0	1	1	0	0	0	mmu-miR-7a-5p	-0.59	-1.64	0.76	2005, 2007, 2009, 2011
+Lrrc59	ENSMUST00000021239.6	leucine rich repeat containing 59 	13744	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.59	-0.60	0.34	2007, 2009, 2011
+0610007P14Rik	ENSMUST00000021676.6	RIKEN cDNA 0610007P14 gene 	2559	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.57	-0.66	0.45	2009, 2011
+Plcb1	ENSMUST00000110116.2	phospholipase C, beta 1 	265	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.54	-0.63	< 0.1	2005, 2007, 2011
+Naa60	ENSMUST00000186375.1	N(alpha)-acetyltransferase 60, NatF catalytic subunit 	1502	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.54	-0.55	0.66	2007, 2009, 2011
+Cct4	ENSMUST00000173867.2	chaperonin containing Tcp1, subunit 4 (delta) 	24836	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.54	-0.54	0.57	2005, 2007, 2009, 2011
+Ghitm	ENSMUST00000042564.10	growth hormone inducible transmembrane protein 	6265	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.54	-0.58	< 0.1	2005, 2007, 2009, 2011
+Adam11	ENSMUST00000068150.5	a disintegrin and metallopeptidase domain 11 	163	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.54	-0.54	0.54	2005, 2007, 2009, 2011
+Ost4	ENSMUST00000132253.2	oligosaccharyltransferase 4 homolog (S. cerevisiae) 	308	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.53	-0.53	0.13	2009, 2011
+Phf21a	ENSMUST00000044036.9	PHD finger protein 21A 	306	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.53	-0.71	0.72	2005, 2007, 2009, 2011
+4933426M11Rik	ENSMUST00000068519.5	RIKEN cDNA 4933426M11 gene 	1522	1	0	1	0	1	0	1	0	6	mmu-miR-7a-5p	-0.52	-0.53	0.37	2007, 2009, 2011
+Nr1h2	ENSMUST00000107912.2	nuclear receptor subfamily 1, group H, member 2 	126	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.52	-0.52	< 0.1	2005, 2007, 2009, 2011
+H2-Ob	ENSMUST00000095342.4	histocompatibility 2, O region beta locus 	103	1	1	0	0	2	0	1	1	2	mmu-miR-7a-5p	-0.52	-0.78	< 0.1	2009, 2011
+Plp2	ENSMUST00000033486.5	proteolipid protein 2 	20	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.51	-0.51	0.68	2005, 2007, 2009, 2011
+Purb	ENSMUST00000179343.2	purine rich element binding protein B 	1875	1	0	1	0	0	0	0	0	4	mmu-miR-7a-5p	-0.51	-0.86	0.31	2005, 2007
+Vma21	ENSMUST00000114577.2	VMA21 vacuolar H+-ATPase homolog (S. cerevisiae) 	350	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.51	-0.66	0.53	2007, 2009, 2011
+Champ1	ENSMUST00000051870.7	chromosome alignment maintaining phosphoprotein 1 	743	2	1	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.50	-0.52	0.82	2007, 2011
+Raf1	ENSMUST00000112949.2	v-raf-leukemia viral oncogene 1 	447	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.50	-0.51	0.67	2005, 2007, 2009, 2011
+Kif16b	ENSMUST00000043589.7	kinesin family member 16B 	222	1	1	0	0	1	0	0	1	1	mmu-miR-7b-5p	-0.50	-0.59	0.75	2007, 2009, 2011
+Trpm7	ENSMUST00000103224.4	transient receptor potential cation channel, subfamily M, member 7 	773	1	0	1	0	2	0	1	1	1	mmu-miR-7a-5p	-0.50	-0.52	0.52	2005, 2007, 2009, 2011
+Pan2	ENSMUST00000005825.6	PAN2 polyA specific ribonuclease subunit homolog (S. cerevisiae) 	97	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.49	-0.49	0.61	2007, 2009, 2011
+Vdac3	ENSMUST00000009036.4	voltage-dependent anion channel 3 	145	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.49	-0.49	< 0.1	2005, 2007, 2009, 2011
+Wipf2	ENSMUST00000037480.8	WAS/WASL interacting protein family, member 2 	310	2	1	1	0	5	1	2	2	3	mmu-miR-7a-5p	-0.49	-0.62	0.70	2007, 2009, 2011
+Cnppd1	ENSMUST00000168720.2	cyclin Pas1/PHO80 domain containing 1 	1050	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.48	-0.48	0.79	2007, 2009, 2011
+Fam168b	ENSMUST00000167518.2	family with sequence similarity 168, member B 	808	1	1	0	0	2	0	2	0	1	mmu-miR-7a-5p	-0.48	-0.65	0.83	2007, 2009, 2011
+3110001I22Rik	ENSMUST00000035426.5	RIKEN cDNA 3110001I22 gene 	118	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.47	-0.49	< 0.1	2009, 2011
+Strn3	ENSMUST00000013130.9	striatin, calmodulin binding protein 3 	4069	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.47	-0.48	0.84	2005, 2007, 2011
+Cyth3	ENSMUST00000116456.4	cytohesin 3 	1264	1	1	0	0	1	0	1	0	0	mmu-miR-7a-5p	-0.47	-0.47	0.54	2007, 2009, 2011
+Gjc1	ENSMUST00000068933.6	gap junction protein, gamma 1 	295	1	1	0	0	1	1	0	0	3	mmu-miR-7a-5p	-0.46	-0.50	0.83	2007, 2009, 2011
+Tmed9	ENSMUST00000109905.3	transmembrane emp24 protein transport domain containing 9 	119	1	0	1	0	4	0	1	3	0	mmu-miR-7a-5p	-0.45	-0.69	0.71	2005, 2007, 2009, 2011
+Ckap4	ENSMUST00000053871.3	cytoskeleton-associated protein 4 	538	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.45	-0.46	0.82	2005, 2007, 2009, 2011
+Fndc4	ENSMUST00000172435.2	fibronectin type III domain containing 4 	521	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.45	-0.45	0.75	2005, 2009, 2011
+1110008F13Rik	ENSMUST00000029165.3	RIKEN cDNA 1110008F13 gene 	8393	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.45	-0.45	0.55	2009, 2011
+Mknk1	ENSMUST00000019677.6	MAP kinase-interacting serine/threonine kinase 1 	285	1	0	1	0	2	0	0	2	1	mmu-miR-7a-5p	-0.44	-0.44	0.68	2005, 2007, 2009, 2011
+Nlrx1	ENSMUST00000168499.2	NLR family member X1 	29	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.44	-0.63	0.42	2007, 2009, 2011
+Dcstamp	ENSMUST00000022913.4	dentrocyte expressed seven transmembrane protein 	5	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.43	-0.43	< 0.1	2007, 2009, 2011
+Parp1	ENSMUST00000027777.6	poly (ADP-ribose) polymerase family, member 1 	1992	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.43	-0.48	0.74	2009, 2011
+Pfn2	ENSMUST00000066882.8	profilin 2 	5124	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.43	-0.43	0.69	2005, 2007, 2009, 2011
+Pax6	ENSMUST00000111086.5	paired box 6 	15	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.43	-0.43	0.71	2007, 2009, 2011
+Gal3st3	ENSMUST00000061169.6	galactose-3-O-sulfotransferase 3 	36	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.43	-0.43	0.78	2005, 2007, 2009, 2011
+Kif13a	ENSMUST00000056978.7	kinesin family member 13A 	2688	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.42	-0.45	0.81	2009, 2011
+Igsf8	ENSMUST00000139528.2	immunoglobulin superfamily, member 8 	1836	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.42	-0.42	0.18	2007, 2009, 2011
+Atf7	ENSMUST00000184616.2	activating transcription factor 7 	227	1	1	0	0	4	0	1	3	6	mmu-miR-7a-5p	-0.42	-0.46	0.48	2005, 2007
+Gltpd1	ENSMUST00000105586.1	glycolipid transfer protein domain containing 1 	1033	1	0	1	0	2	0	1	1	0	mmu-miR-7a-5p	-0.42	-0.42	< 0.1	2007, 2009, 2011
+Arid4a	ENSMUST00000046305.6	AT rich interactive domain 4A (RBP1-like) 	150	2	1	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.42	-0.55	0.80	2005, 2007, 2009, 2011
+Ublcp1	ENSMUST00000102795.3	ubiquitin-like domain containing CTD phosphatase 1 	7	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.42	-0.42	0.46	2005, 2007, 2009, 2011
+Fam53c	ENSMUST00000049281.6	family with sequence similarity 53, member C 	462	1	1	0	0	1	0	1	0	2	mmu-miR-7a-5p	-0.41	-0.41	0.55	2005, 2007, 2009, 2011
+Ankrd12	ENSMUST00000038116.6	ankyrin repeat domain 12 	320	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.41	-0.43	0.70	2005, 2007, 2009, 2011
+Smim12	ENSMUST00000142029.1	small integral membrane protein 12 	829	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.41	-0.62	< 0.1	2007, 2009, 2011
+Cacng7	ENSMUST00000092891.4	calcium channel, voltage-dependent, gamma subunit 7 	106	1	1	0	0	0	0	0	0	4	mmu-miR-7a-5p	-0.40	-0.40	0.76	
+Gmeb1	ENSMUST00000168553.2	glucocorticoid modulatory element binding protein 1 	202	1	1	0	0	3	2	1	0	1	mmu-miR-7a-5p	-0.40	-0.57	0.72	2009, 2011
+Herpud2	ENSMUST00000008573.7	HERPUD family member 2 	508	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.40	-0.41	0.70	2007, 2009, 2011
+Cxcl2	ENSMUST00000075433.6	chemokine (C-X-C motif) ligand 2 	5	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.40	-0.40	0.37	2009, 2011
+Ccdc120	ENSMUST00000033490.7	coiled-coil domain containing 120 	22	1	1	0	0	3	0	2	1	0	mmu-miR-7a-5p	-0.40	-0.40	< 0.1	2007, 2009, 2011
+March11	ENSMUST00000152841.1	membrane-associated ring finger (C3HC4) 11 	5	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.40	-0.40	ORF	
+Fgf1	ENSMUST00000117566.2	fibroblast growth factor 1 	617	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.40	-0.43	< 0.1	2005, 2007, 2009, 2011
+Prkcb	ENSMUST00000064921.4	protein kinase C, beta 	114	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.40	-0.40	0.28	2009, 2011
+Cnn3	ENSMUST00000029773.8	calponin 3, acidic 	2114	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.39	-0.39	0.61	2005, 2007, 2009, 2011
+Rsbn1	ENSMUST00000106806.1	rosbin, round spermatid basic protein 1 	1150	1	1	0	0	2	0	1	1	1	mmu-miR-7a-5p	-0.39	-0.42	0.76	2005, 2007, 2009, 2011
+Vps26a	ENSMUST00000105447.4	vacuolar protein sorting 26 homolog A (yeast) 	842	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.39	-0.39	0.72	2007, 2009, 2011
+Ptgfrn	ENSMUST00000102694.3	prostaglandin F2 receptor negative regulator 	263	1	1	0	0	3	0	1	2	3	mmu-miR-7b-5p	-0.38	-0.46	0.43	2005, 2007, 2009, 2011
+Kcnj2	ENSMUST00000042970.2	potassium inwardly-rectifying channel, subfamily J, member 2 	89	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.37	-0.37	0.66	2005, 2007, 2011
+Gm10118	ENSMUST00000079279.3	predicted gene 10118 	5	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.37	-0.37	0.25	
+Wdr47	ENSMUST00000051145.9	WD repeat domain 47 	730	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.37	-0.37	0.69	2005, 2007, 2009, 2011
+Smyd5	ENSMUST00000045693.7	SET and MYND domain containing 5 	819	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.37	-0.37	0.65	2005, 2007, 2009, 2011
+Galnt3	ENSMUST00000028378.3	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 3 	223	1	0	1	0	0	0	0	0	1	mmu-miR-7b-5p	-0.37	-0.37	0.69	2007, 2009, 2011
+Vimp	ENSMUST00000101801.5	VCP-interacting membrane protein 	4931	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.37	-0.37	0.28	2009, 2011
+Ppif	ENSMUST00000022419.6	peptidylprolyl isomerase F (cyclophilin F) 	2388	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.37	-0.37	0.14	2007, 2009, 2011
+Pbx3	ENSMUST00000113132.3	pre B cell leukemia homeobox 3 	691	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.36	-0.37	0.71	2007
+Iglon5	ENSMUST00000107974.1	IgLON family member 5 	23	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.36	-0.36	0.73	2011
+Ide	ENSMUST00000131070.1	insulin degrading enzyme 	1142	2	2	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.36	-0.46	0.62	2005, 2007, 2009, 2011
+Lrtm2	ENSMUST00000112756.2	leucine-rich repeats and transmembrane domains 2 	13	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.36	-0.36	0.30	2007, 2009, 2011
+Marf1	ENSMUST00000090300.4	meiosis arrest female 1 	1011	1	1	0	0	1	0	0	1	2	mmu-miR-7b-5p	-0.36	-0.37	0.34	2009, 2011
+Rbms1	ENSMUST00000028347.7	RNA binding motif, single stranded interacting protein 1 	13703	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.36	-0.37	0.79	
+Bcr	ENSMUST00000164107.1	breakpoint cluster region 	1434	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.36	-0.68	0.57	2007, 2009, 2011
+Arrb1	ENSMUST00000098266.3	arrestin, beta 1 	3433	1	1	0	0	3	0	1	2	3	mmu-miR-7a-5p	-0.36	-0.36	< 0.1	2005, 2007, 2009, 2011
+Cnot8	ENSMUST00000108843.2	CCR4-NOT transcription complex, subunit 8 	691	1	0	1	0	2	1	1	0	2	mmu-miR-7a-5p	-0.35	-0.66	0.70	2005, 2007, 2009, 2011
+Rb1	ENSMUST00000022701.6	retinoblastoma 1 	607	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.35	-0.36	< 0.1	2005, 2007, 2009, 2011
+Irs2	ENSMUST00000040514.6	insulin receptor substrate 2 	385	2	1	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.34	-0.37	0.85	2005, 2007
+Mafg	ENSMUST00000058162.8	v-maf musculoaponeurotic fibrosarcoma oncogene family, protein G (avian) 	999	2	1	1	0	0	0	0	0	5	mmu-miR-7a-5p	-0.34	-0.36	0.90	2005, 2007
+Col2a1	ENSMUST00000023123.9	collagen, type II, alpha 1 	5	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.34	-0.34	0.57	2005, 2007, 2009, 2011
+Serp1	ENSMUST00000029385.7	stress-associated endoplasmic reticulum protein 1 	4897	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.34	-0.38	0.69	2005, 2007, 2009, 2011
+Calr	ENSMUST00000003912.6	calreticulin 	20820	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.34	-0.34	0.23	2009, 2011
+Flrt2	ENSMUST00000057324.3	fibronectin leucine rich transmembrane protein 2 	128	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.34	-0.55	0.67	2005, 2007, 2011
+Bcorl1	ENSMUST00000136348.2	BCL6 co-repressor-like 1 	306	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.34	-0.51	0.82	2005, 2007, 2009, 2011
+Kdm3b	ENSMUST00000043775.7	KDM3B lysine (K)-specific demethylase 3B 	1192	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.34	-0.34	0.69	2007, 2009, 2011
+Zfp768	ENSMUST00000060783.5	zinc finger protein 768 	57	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.34	-0.34	0.44	2009, 2011
+Ccnt2	ENSMUST00000112570.1	cyclin T2 	793	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.33	-0.37	0.47	2005, 2007, 2009, 2011
+Psme3	ENSMUST00000019470.8	proteaseome (prosome, macropain) activator subunit 3 (PA28 gamma, Ki) 	5849	1	1	0	0	1	0	0	1	3	mmu-miR-7a-5p	-0.33	-0.70	0.38	2005, 2007, 2009, 2011
+Hells	ENSMUST00000025965.6	helicase, lymphoid specific 	4578	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.33	-0.52	0.72	2005, 2007, 2009, 2011
+Slc25a15	ENSMUST00000033871.6	solute carrier family 25 (mitochondrial carrier ornithine transporter), member 15 	8694	1	0	1	0	1	0	1	0	2	mmu-miR-7a-5p	-0.33	-0.41	0.58	2005, 2007, 2009, 2011
+Tmub2	ENSMUST00000036376.7	transmembrane and ubiquitin-like domain containing 2 	1049	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.33	-0.33	0.39	2007, 2009, 2011
+Cand1	ENSMUST00000020315.7	cullin associated and neddylation disassociated 1 	2940	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.33	-0.33	0.28	2005, 2007, 2009, 2011
+Rgs7bp	ENSMUST00000063551.5	regulator of G-protein signalling 7 binding protein 	26	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.33	-0.42	0.83	2007, 2009, 2011
+Ablim1	ENSMUST00000079360.6	actin-binding LIM protein 1 	1874	1	0	1	0	2	0	2	0	1	mmu-miR-7b-5p	-0.33	-0.34	0.54	2005, 2007, 2009, 2011
+Megf9	ENSMUST00000107359.3	multiple EGF-like-domains 9 	748	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.33	-0.33	0.79	2007, 2009, 2011
+Smndc1	ENSMUST00000025997.5	survival motor neuron domain containing 1 	762	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.33	-0.33	0.69	2005, 2007, 2009, 2011
+Eif3j1	ENSMUST00000028668.7	eukaryotic translation initiation factor 3, subunit J1 	350	1	0	0	1	2	0	1	1	0	mmu-miR-7a-5p	-0.33	-0.33	< 0.1	2009, 2011
+Zbtb22	ENSMUST00000053429.9	zinc finger and BTB domain containing 22 	485	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.33	-0.33	0.43	2007, 2009, 2011
+Strn	ENSMUST00000145910.3	striatin, calmodulin binding protein 	522	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.32	-0.33	0.43	
+Atxn7	ENSMUST00000022257.2	ataxin 7 	414	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.32	-0.36	0.70	2009, 2011
+Hs3st5	ENSMUST00000168572.2	heparan sulfate (glucosamine) 3-O-sulfotransferase 5 	73	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.32	-0.34	0.18	2009, 2011
+Esrrg	ENSMUST00000027906.7	estrogen-related receptor gamma 	676	1	1	0	0	0	0	0	0	4	mmu-miR-7a-5p	-0.32	-0.32	0.79	2005, 2007, 2009, 2011
+Lemd3	ENSMUST00000119944.2	LEM domain containing 3 	141	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.32	-0.32	0.62	2005, 2007, 2009, 2011
+Mlh3	ENSMUST00000166821.2	mutL homolog 3 (E coli) 	116	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.32	-0.37	< 0.1	2007, 2009, 2011
+Capza1	ENSMUST00000094028.5	capping protein (actin filament) muscle Z-line, alpha 1 	13	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.32	-0.32	0.67	2005, 2007, 2009, 2011
+Naif1	ENSMUST00000048431.2	nuclear apoptosis inducing factor 1 	81	1	1	0	0	1	0	1	0	2	mmu-miR-7a-5p	-0.32	-0.54	0.44	2007
+Ccdc43	ENSMUST00000092569.7	coiled-coil domain containing 43 	530	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.31	-0.32	0.71	2007, 2009, 2011
+Zc3h4	ENSMUST00000098789.3	zinc finger CCCH-type containing 4 	1195	1	1	0	0	0	0	0	0	1	mmu-miR-7b-5p	-0.31	-0.32	0.83	2007, 2009, 2011
+Tfrc	ENSMUST00000023486.9	transferrin receptor 	2457	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.31	-0.32	0.81	2005, 2007, 2009, 2011
+Fam83a	ENSMUST00000160942.2	family with sequence similarity 83, member A 	6	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.31	-0.31	< 0.1	2005, 2007, 2009, 2011
+Rnf144a	ENSMUST00000020971.7	ring finger protein 144A 	287	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.31	-0.34	0.70	2007, 2009, 2011
+Pacsin1	ENSMUST00000045896.4	protein kinase C and casein kinase substrate in neurons 1 	263	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.31	-0.31	0.47	2005, 2007, 2009, 2011
+Hcn1	ENSMUST00000006991.7	hyperpolarization-activated, cyclic nucleotide-gated K+ 1 	25	1	0	1	0	2	0	0	2	6	mmu-miR-7a-5p	-0.31	-0.32	0.72	2007, 2009, 2011
+Diras1	ENSMUST00000055125.4	DIRAS family, GTP-binding RAS-like 1 	5	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.30	-0.30	0.60	2005, 2007, 2009, 2011
+Ctdspl	ENSMUST00000073109.6	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase-like 	1316	1	1	0	0	1	0	1	0	1	mmu-miR-7a-5p	-0.30	-0.31	< 0.1	2007, 2009, 2011
+Rnf20	ENSMUST00000029989.5	ring finger protein 20 	1943	1	0	1	0	2	1	0	1	0	mmu-miR-7a-5p	-0.30	-0.45	0.66	2005, 2007, 2009, 2011
+Zfp609	ENSMUST00000159109.1	zinc finger protein 609 	200	1	0	1	0	2	0	2	0	6	mmu-miR-7a-5p	-0.30	-0.31	0.72	2011
+Scn2b	ENSMUST00000170998.2	sodium channel, voltage-gated, type II, beta 	51	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.30	-0.30	0.67	2005, 2007, 2009, 2011
+Lsm12	ENSMUST00000107156.3	LSM12 homolog (S. cerevisiae) 	3995	2	0	0	2	0	0	0	0	1	mmu-miR-7a-5p	-0.30	-0.30	0.39	2007, 2009, 2011
+Rela	ENSMUST00000025867.5	v-rel reticuloendotheliosis viral oncogene homolog A (avian) 	2743	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.30	-0.30	0.38	2009, 2011
+Pcbp3	ENSMUST00000001148.5	poly(rC) binding protein 3 	448	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.29	-0.30	< 0.1	2007, 2009, 2011
+Enah	ENSMUST00000078719.7	enabled homolog (Drosophila) 	2081	1	0	1	0	2	0	1	1	2	mmu-miR-7a-5p	-0.29	-0.44	0.72	2005, 2007, 2009, 2011
+Ggt7	ENSMUST00000029131.5	gamma-glutamyltransferase 7 	14	1	1	0	0	2	0	1	1	3	mmu-miR-7a-5p	-0.29	-0.38	0.74	2007, 2009, 2011
+Arf3	ENSMUST00000053183.9	ADP-ribosylation factor 3 	840	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.29	-0.31	0.34	2005, 2007, 2009, 2011
+Foxn3	ENSMUST00000046859.5	forkhead box N3 	698	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.29	-0.40	0.80	2007
+Klhl26	ENSMUST00000066597.6	kelch-like 26 	889	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.29	-0.31	< 0.1	2007, 2009, 2011
+Ube2d2a	ENSMUST00000170693.2	ubiquitin-conjugating enzyme E2D 2A 	1832	1	0	1	0	1	0	0	1	2	mmu-miR-7b-5p	-0.29	-0.32	0.66	2009, 2011
+Hpcal4	ENSMUST00000059667.3	hippocalcin-like 4 	5	1	0	1	0	2	0	1	1	2	mmu-miR-7a-5p	-0.28	-0.28	0.22	2005, 2007, 2009, 2011
+Zfp395	ENSMUST00000066994.6	zinc finger protein 395 	1065	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.28	-0.28	0.83	2009, 2011
+Necab1	ENSMUST00000041606.8	N-terminal EF-hand calcium binding protein 1 	85	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.28	-0.29	0.65	2007, 2009, 2011
+Pim1	ENSMUST00000024811.7	proviral integration site 1 	5	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.28	-0.28	0.13	2005, 2007, 2009, 2011
+Lrrc1	ENSMUST00000183873.2	leucine rich repeat containing 1 	556	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.28	-0.28	0.56	2007, 2009, 2011
+Ube2g1	ENSMUST00000021148.7	ubiquitin-conjugating enzyme E2G 1 	4678	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.28	-0.36	0.36	2005, 2007, 2009, 2011
+Clasp2	ENSMUST00000166734.3	CLIP associating protein 2 	1362	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.28	-0.28	0.38	2005, 2007, 2009, 2011
+Ambra1	ENSMUST00000099712.4	autophagy/beclin 1 regulator 1 	1316	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.27	-0.27	0.54	2007, 2009, 2011
+Smarcd1	ENSMUST00000023759.4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily d, member 1 	1422	1	0	1	0	2	0	0	2	1	mmu-miR-7a-5p	-0.27	-0.27	0.39	2005, 2007, 2009, 2011
+Pik3cd	ENSMUST00000038859.8	phosphatidylinositol 3-kinase catalytic delta polypeptide 	20	1	1	0	0	2	1	0	1	1	mmu-miR-7a-5p	-0.27	-0.30	0.73	2005, 2007, 2009, 2011
+Mob2	ENSMUST00000084418.2	MOB kinase activator 2 	1590	1	1	0	0	1	0	1	0	1	mmu-miR-7a-5p	-0.27	-0.48	< 0.1	2007, 2009, 2011
+Ankfy1	ENSMUST00000155998.1	ankyrin repeat and FYVE domain containing 1 	1038	1	0	1	0	2	0	0	2	2	mmu-miR-7b-5p	-0.27	-0.28	0.39	2005, 2007, 2009, 2011
+Fam189a1	ENSMUST00000119118.2	family with sequence similarity 189, member A1 	11	1	0	1	0	2	0	1	1	1	mmu-miR-7a-5p	-0.27	-0.39	0.66	2009, 2011
+Stox2	ENSMUST00000110367.3	storkhead box 2 	115	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.27	-0.33	0.70	2009, 2011
+Gabra1	ENSMUST00000020707.6	gamma-aminobutyric acid (GABA) A receptor, subunit alpha 1 	12	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.27	-0.32	0.70	
+Dnajc5	ENSMUST00000072334.6	DnaJ (Hsp40) homolog, subfamily C, member 5 	1852	1	0	1	0	3	1	1	1	1	mmu-miR-7a-5p	-0.27	-0.54	0.35	2005, 2007, 2009, 2011
+Atp2b2	ENSMUST00000089003.6	ATPase, Ca++ transporting, plasma membrane 2 	47	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.27	-0.31	0.62	2005, 2007, 2009, 2011
+Nrsn1	ENSMUST00000057866.7	neurensin 1 	5	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.27	-0.27	< 0.1	2007, 2009, 2011
+Rps6kb1	ENSMUST00000154617.2	ribosomal protein S6 kinase, polypeptide 1 	1121	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.26	-0.40	0.76	2005, 2007, 2009, 2011
+Celsr1	ENSMUST00000016172.7	cadherin, EGF LAG seven-pass G-type receptor 1 (flamingo homolog, Drosophila) 	372	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.26	-0.26	0.29	2005, 2007, 2009, 2011
+Eif4e	ENSMUST00000029803.7	eukaryotic translation initiation factor 4E 	1238	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.26	-0.26	0.72	2009, 2011
+Map4	ENSMUST00000035055.9	microtubule-associated protein 4 	9028	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.26	-0.26	0.39	2005, 2007, 2011
+Car7	ENSMUST00000159416.2	carbonic anhydrase 7 	33	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.26	-0.26	0.17	2009, 2011
+Slc6a9	ENSMUST00000030269.8	solute carrier family 6 (neurotransmitter transporter, glycine), member 9 	812	1	1	0	0	1	0	1	0	1	mmu-miR-7a-5p	-0.26	-0.28	0.68	2007, 2009, 2011
+Add2	ENSMUST00000032069.5	adducin 2 (beta) 	13	1	0	1	0	3	2	0	1	8	mmu-miR-7a-5p	-0.25	-0.53	0.59	2005, 2009, 2011
+Zfp212	ENSMUST00000009411.8	Zinc finger protein 212 	78	1	0	1	0	0	0	0	0	1	mmu-miR-7b-5p	-0.25	-0.25	0.14	2009, 2011
+Ctdsp2	ENSMUST00000105256.3	CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase 2 	5332	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.25	-0.25	0.41	2005, 2007, 2009, 2011
+Mob1b	ENSMUST00000113229.2	MOB kinase activator 1B 	3883	2	0	1	1	0	0	0	0	0	mmu-miR-7a-5p	-0.25	-0.28	0.48	2007, 2009, 2011
+Slc38a2	ENSMUST00000023099.6	solute carrier family 38, member 2 	3346	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.25	-0.28	0.23	2005, 2007, 2009, 2011
+Satb1	ENSMUST00000144331.2	special AT-rich sequence binding protein 1 	473	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.25	-0.35	0.72	2005, 2007, 2011
+Slc25a23	ENSMUST00000040280.8	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 23 	107	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.25	-0.27	< 0.1	2005, 2009, 2011
+Glo1	ENSMUST00000024823.7	glyoxalase 1 	19773	1	0	1	0	1	0	1	0	0	mmu-miR-7a-5p	-0.24	-0.25	0.39	2007, 2009, 2011
+Fam131b	ENSMUST00000031891.9	family with sequence similarity 131, member B 	207	2	2	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.24	-0.85	0.88	2007, 2009, 2011
+Osbpl5	ENSMUST00000119499.2	oxysterol binding protein-like 5 	39	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.24	-0.24	0.20	2005, 2007, 2009, 2011
+Xpo7	ENSMUST00000167242.2	exportin 7 	3235	1	0	1	0	3	0	0	3	3	mmu-miR-7a-5p	-0.24	-0.28	0.72	2009, 2011
+Dach1	ENSMUST00000071533.7	dachshund 1 (Drosophila) 	304	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.24	-0.25	0.51	2005, 2007, 2009, 2011
+Lzts3	ENSMUST00000089561.4	leucine zipper, putative tumor suppressor family member 3 	158	1	0	1	0	2	0	0	2	1	mmu-miR-7a-5p	-0.24	-0.24	0.29	2007, 2009, 2011
+Dnpep	ENSMUST00000185419.1	aspartyl aminopeptidase 	63	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.24	-0.24	< 0.1	2005, 2007, 2009, 2011
+Csmd3	ENSMUST00000160658.2	CUB and Sushi multiple domains 3 	5	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.24	-0.24	0.36	2005, 2007, 2009, 2011
+Epha3	ENSMUST00000064405.6	Eph receptor A3 	38	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.24	-0.26	< 0.1	2005, 2007
+Setd8	ENSMUST00000059580.5	SET domain containing (lysine methyltransferase) 8 	582	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.24	-0.24	0.33	2009, 2011
+Pde4a	ENSMUST00000039413.9	phosphodiesterase 4A, cAMP specific 	988	1	1	0	0	0	0	0	0	3	mmu-miR-7b-5p	-0.24	-0.24	< 0.1	2005, 2007, 2009, 2011
+Nr4a3	ENSMUST00000030025.4	nuclear receptor subfamily 4, group A, member 3 	183	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.24	-0.28	0.64	2005, 2007
+Six4	ENSMUST00000043208.7	sine oculis-related homeobox 4 	266	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.23	-0.25	0.36	2007
+Nipal3	ENSMUST00000102549.4	NIPA-like domain containing 3 	304	2	0	2	0	1	0	0	1	5	mmu-miR-7a-5p	-0.23	-0.37	0.50	2007, 2009, 2011
+Tmem245	ENSMUST00000068792.7	transmembrane protein 245 	1295	1	0	1	0	3	0	0	3	8	mmu-miR-7a-5p	-0.23	-0.26	0.13	2007, 2009, 2011
+Irs4	ENSMUST00000067841.7	insulin receptor substrate 4 	5	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.23	-0.23	0.72	2009, 2011
+Arhgap32	ENSMUST00000174641.2	Rho GTPase activating protein 32 	299	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.23	-0.26	< 0.1	2011
+Zbtb2	ENSMUST00000100078.3	zinc finger and BTB domain containing 2 	201	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.23	-0.23	0.16	2005, 2007, 2009, 2011
+U2surp	ENSMUST00000079659.6	U2 snRNP-associated SURP domain containing 	2101	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.23	-0.23	0.45	2007, 2009, 2011
+Timm50	ENSMUST00000081946.4	translocase of inner mitochondrial membrane 50 	4108	1	0	1	0	0	0	0	0	0	mmu-miR-7b-5p	-0.23	-0.34	0.21	2007
+Gm608	ENSMUST00000119746.2	predicted gene 608 	951	1	0	1	0	2	0	0	2	1	mmu-miR-7a-5p	-0.23	-0.23	0.53	2007, 2009, 2011
+Abi2	ENSMUST00000052332.9	abl-interactor 2 	208	1	0	1	0	2	0	2	0	1	mmu-miR-7a-5p	-0.23	-0.28	0.30	2007, 2009, 2011
+Pcnxl2	ENSMUST00000047239.7	pecanex-like 2 (Drosophila) 	10	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.23	-0.23	< 0.1	2005, 2009, 2011
+Spty2d1	ENSMUST00000061639.7	SPT2, Suppressor of Ty, domain containing 1 (S. cerevisiae) 	96	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.23	-0.35	0.50	2007, 2009, 2011
+Ube2d3	ENSMUST00000166033.1	ubiquitin-conjugating enzyme E2D 3 	5861	2	0	0	2	0	0	0	0	0	mmu-miR-7a-5p	-0.22	-0.22	< 0.1	2005, 2007, 2009, 2011
+Zfp148	ENSMUST00000165418.2	zinc finger protein 148 	580	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.22	-0.26	0.65	2009, 2011
+Jade1	ENSMUST00000026865.9	jade family PHD finger 1 	8633	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.22	-0.22	0.81	2007, 2009, 2011
+Rbmx	ENSMUST00000098470.3	RNA binding motif protein, X chromosome 	830	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.22	-0.22	< 0.1	2007, 2009, 2011
+Rbfox1	ENSMUST00000056416.7	RNA binding protein, fox-1 homolog (C. elegans) 1 	709	2	0	1	1	0	0	0	0	0	mmu-miR-7a-5p	-0.22	-0.22	0.23	2007, 2009, 2011
+Sla	ENSMUST00000164163.2	src-like adaptor 	114	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.22	-0.23	< 0.1	2005, 2007, 2009, 2011
+Slc4a4	ENSMUST00000148750.2	solute carrier family 4 (anion exchanger), member 4 	5302	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.22	-0.22	< 0.1	2005, 2007, 2009, 2011
+Ulk3	ENSMUST00000053230.6	unc-51-like kinase 3 	247	1	0	1	0	1	0	1	0	3	mmu-miR-7a-5p	-0.22	-0.22	0.26	2005, 2011
+Grin2b	ENSMUST00000053880.7	glutamate receptor, ionotropic, NMDA2B (epsilon 2) 	5	1	1	0	0	4	0	2	2	10	mmu-miR-7a-5p	-0.22	-0.22	0.29	
+Smox	ENSMUST00000110179.3	spermine oxidase 	2780	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.21	-0.21	ORF	
+Rreb1	ENSMUST00000128570.2	ras responsive element binding protein 1 	109	1	0	1	0	1	0	0	1	2	mmu-miR-7a-5p	-0.21	-0.21	0.21	2005, 2007, 2009, 2011
+Patl1	ENSMUST00000061618.7	protein associated with topoisomerase II homolog 1 (yeast) 	879	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.21	-0.22	0.48	2007, 2009, 2011
+Pphln1	ENSMUST00000049122.9	periphilin 1 	680	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.21	-0.32	0.31	2009, 2011
+Leng1	ENSMUST00000019878.7	leukocyte receptor cluster (LRC) member 1 	199	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.21	-0.22	0.41	2009, 2011
+Zbtb20	ENSMUST00000114694.3	zinc finger and BTB domain containing 20 	293	1	0	0	1	2	0	1	1	14	mmu-miR-7a-5p	-0.21	-0.26	0.21	
+Plec	ENSMUST00000089610.4	plectin 	60	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.21	-0.21	0.60	2007, 2009, 2011
+Arih1	ENSMUST00000171975.2	ariadne ubiquitin-conjugating enzyme E2 binding protein homolog 1 (Drosophila) 	3517	1	0	1	0	1	0	0	1	2	mmu-miR-7a-5p	-0.21	-0.25	0.49	2009, 2011
+Ppfia3	ENSMUST00000107779.2	protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 3 	22	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.21	-0.21	0.40	2005, 2007, 2009, 2011
+Srrm3	ENSMUST00000144211.1	serine/arginine repetitive matrix 3 	10	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.21	-0.21	0.29	2007, 2009, 2011
+Wapal	ENSMUST00000048263.8	wings apart-like homolog (Drosophila) 	4563	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.21	-0.29	0.65	2007
+Xiap	ENSMUST00000115094.2	X-linked inhibitor of apoptosis 	2281	1	0	0	1	1	0	1	0	2	mmu-miR-7a-5p	-0.20	-0.21	< 0.1	2007, 2009, 2011
+Sh3glb1	ENSMUST00000163279.1	SH3-domain GRB2-like B1 (endophilin) 	6534	1	0	0	1	1	0	1	0	2	mmu-miR-7a-5p	-0.20	-0.29	0.38	2007, 2009, 2011
+1700025G04Rik	ENSMUST00000044581.8	RIKEN cDNA 1700025G04 gene 	289	1	0	1	0	2	0	1	1	1	mmu-miR-7a-5p	-0.20	-0.36	0.33	2011
+Gltscr1	ENSMUST00000094821.3	glioma tumor suppressor candidate region gene 1 	262	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.20	-0.20	0.65	2005, 2007
+Nab1	ENSMUST00000186764.1	Ngfi-A binding protein 1 	4719	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.20	-0.20	< 0.1	2005, 2007, 2011
+Slc22a4	ENSMUST00000020586.6	solute carrier family 22 (organic cation transporter), member 4 	129	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.19	-0.20	< 0.1	2005, 2007, 2009, 2011
+Lbr	ENSMUST00000005003.6	lamin B receptor 	2560	1	1	0	0	1	0	1	0	0	mmu-miR-7a-5p	-0.19	-0.23	0.25	2005, 2007, 2009, 2011
+Sla2	ENSMUST00000029164.3	Src-like-adaptor 2 	15	1	0	1	0	1	1	0	0	1	mmu-miR-7a-5p	-0.19	-0.28	0.35	2009, 2011
+Fam213a	ENSMUST00000022317.9	family with sequence similarity 213, member A 	2891	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.19	-0.19	0.16	2007, 2009, 2011
+Slc22a23	ENSMUST00000040336.6	solute carrier family 22, member 23 	792	1	0	1	0	4	0	1	3	1	mmu-miR-7a-5p	-0.19	-0.31	0.61	2007, 2009, 2011
+Tcf12	ENSMUST00000183404.2	transcription factor 12 	197	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.19	-0.27	0.75	2005, 2007, 2009, 2011
+Sema6d	ENSMUST00000103239.4	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D 	274	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.19	-0.20	0.63	2005, 2007, 2009, 2011
+Ccser2	ENSMUST00000090024.5	coiled-coil serine rich 2 	263	1	0	1	0	2	0	1	1	2	mmu-miR-7a-5p	-0.19	-0.21	< 0.1	2007, 2009, 2011
+Csmd1	ENSMUST00000082104.6	CUB and Sushi multiple domains 1 	6	1	0	1	0	0	0	0	0	2	mmu-miR-7b-5p	-0.19	-0.19	0.54	2009, 2011
+Map3k9	ENSMUST00000035987.7	mitogen-activated protein kinase kinase kinase 9 	198	1	0	1	0	1	0	0	1	3	mmu-miR-7a-5p	-0.19	-0.20	0.70	2005, 2007, 2011
+Ids	ENSMUST00000101509.3	iduronate 2-sulfatase 	139	2	0	2	0	1	0	0	1	1	mmu-miR-7a-5p	-0.18	-0.49	0.91	2007, 2011
+Fam19a1	ENSMUST00000122120.2	family with sequence similarity 19, member A1 	16	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.18	-0.20	0.23	2005, 2007, 2009, 2011
+Smg1	ENSMUST00000032891.9	SMG1 homolog, phosphatidylinositol 3-kinase-related kinase (C. elegans) 	108	1	0	1	0	1	0	1	0	2	mmu-miR-7a-5p	-0.18	-0.18	0.22	2007, 2009, 2011
+Pitpna	ENSMUST00000143219.2	phosphatidylinositol transfer protein, alpha 	3031	1	0	0	1	1	0	1	0	2	mmu-miR-7b-5p	-0.18	-0.33	< 0.1	2005, 2007, 2009, 2011
+Pcsk7	ENSMUST00000039059.6	proprotein convertase subtilisin/kexin type 7 	198	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.18	-0.19	0.28	2005, 2007, 2009, 2011
+Crls1	ENSMUST00000028835.7	cardiolipin synthase 1 	2320	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.18	-0.43	0.59	2009, 2011
+D230025D16Rik	ENSMUST00000034361.4	RIKEN cDNA D230025D16 gene 	1624	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.18	-0.20	0.25	2009, 2011
+Elfn2	ENSMUST00000088592.4	leucine rich repeat and fibronectin type III, extracellular 2 	5	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.18	-0.18	0.65	2007, 2009, 2011
+Nxt2	ENSMUST00000112916.3	nuclear transport factor 2-like export factor 2 	128	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.18	-0.18	< 0.1	2005, 2007, 2009, 2011
+G3bp2	ENSMUST00000169094.2	GTPase activating protein (SH3 domain) binding protein 2 	6218	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.18	-0.33	0.65	2005, 2007, 2009, 2011
+Pias1	ENSMUST00000098651.4	protein inhibitor of activated STAT 1 	811	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.17	-0.20	0.28	2009, 2011
+Pcdh1	ENSMUST00000160721.2	protocadherin 1 	1295	1	0	1	0	1	0	0	1	4	mmu-miR-7a-5p	-0.17	-0.19	0.39	
+Sema4c	ENSMUST00000114991.2	sema domain, immunoglobulin domain (Ig), transmembrane domain (TM) and short cytoplasmic domain, (semaphorin) 4C 	77	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.17	-0.17	0.17	2005, 2007, 2009, 2011
+Tcf4	ENSMUST00000078486.7	transcription factor 4 	2787	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.17	-0.19	0.65	2007, 2009, 2011
+Lphn2	ENSMUST00000106128.2	latrophilin 2 	1132	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.17	-0.18	0.39	2007, 2009, 2011
+Ints10	ENSMUST00000034328.7	integrator complex subunit 10 	691	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.17	-1.32	< 0.1	
+Gbp11	ENSMUST00000171587.1	guanylate binding protein 11 	145	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.17	-0.17	< 0.1	
+Gli3	ENSMUST00000110510.3	GLI-Kruppel family member GLI3 	73	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.17	-0.17	0.83	2005, 2007, 2009, 2011
+Dhcr24	ENSMUST00000047973.3	24-dehydrocholesterol reductase 	9729	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.17	-0.17	0.27	2005, 2007, 2009, 2011
+Cdc73	ENSMUST00000018337.8	cell division cycle 73, Paf1/RNA polymerase II complex component 	1852	1	0	0	1	0	0	0	0	3	mmu-miR-7a-5p	-0.17	-0.41	< 0.1	2007, 2009, 2011
+Mafk	ENSMUST00000018287.4	v-maf musculoaponeurotic fibrosarcoma oncogene family, protein K (avian) 	819	1	1	0	0	1	0	1	0	0	mmu-miR-7a-5p	-0.17	-0.17	< 0.1	2005, 2007, 2009, 2011
+Erbb4	ENSMUST00000119142.2	v-erb-a erythroblastic leukemia viral oncogene homolog 4 (avian) 	27	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.17	-0.17	0.20	2005, 2007
+Fam126b	ENSMUST00000161600.2	family with sequence similarity 126, member B 	493	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.17	-0.17	0.66	2007, 2009, 2011
+Trp53inp2	ENSMUST00000043237.8	transformation related protein 53 inducible nuclear protein 2 	1059	1	0	1	0	1	0	0	1	1	mmu-miR-7b-5p	-0.17	-0.18	0.16	2009, 2011
+Fos	ENSMUST00000021674.6	FBJ osteosarcoma oncogene 	164	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.17	-0.17	0.16	2005, 2007, 2009, 2011
+Osbpl11	ENSMUST00000039733.8	oxysterol binding protein-like 11 	378	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.17	-0.17	0.73	2005, 2007, 2009, 2011
+Tceb1	ENSMUST00000188641.1	transcription elongation factor B (SIII), polypeptide 1 	2260	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.17	-0.44	0.64	
+Mdga2	ENSMUST00000113942.2	MAM domain containing glycosylphosphatidylinositol anchor 2 	3	1	0	0	1	3	1	0	2	2	mmu-miR-7a-5p	-0.16	-0.42	< 0.1	2007, 2011
+Rhod	ENSMUST00000117462.1	ras homolog gene family, member D 	1484	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.16	-0.18	< 0.1	
+Atxn1	ENSMUST00000180110.2	ataxin 1 	414	1	1	0	0	2	0	1	1	3	mmu-miR-7a-5p	-0.16	-0.19	0.76	2005, 2007, 2009, 2011
+Foxo6	ENSMUST00000102656.3	forkhead box O6 	14	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.16	-0.16	0.19	2009, 2011
+Skp1a	ENSMUST00000037324.6	S-phase kinase-associated protein 1A 	6208	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.16	-0.43	0.46	2005, 2009, 2011
+Slit1	ENSMUST00000169141.2	slit homolog 1 (Drosophila) 	18	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.16	-0.23	0.76	
+Klf12	ENSMUST00000097079.4	Kruppel-like factor 12 	363	1	1	0	0	1	0	0	1	4	mmu-miR-7a-5p	-0.16	-0.17	0.70	2005, 2007, 2009, 2011
+Nr2c1	ENSMUST00000105290.3	nuclear receptor subfamily 2, group C, member 1 	262	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.16	-0.24	0.68	2009, 2011
+Glg1	ENSMUST00000169020.2	golgi apparatus protein 1 	2690	2	0	2	0	1	0	1	0	3	mmu-miR-7a-5p	-0.16	-0.18	0.43	
+Ubqln4	ENSMUST00000008748.6	ubiquilin 4 	1493	1	0	1	0	2	0	0	2	0	mmu-miR-7b-5p	-0.16	-0.16	0.17	2005, 2007, 2009, 2011
+Ago1	ENSMUST00000097888.4	argonaute RISC catalytic subunit 1 	460	1	0	1	0	0	0	0	0	5	mmu-miR-7a-5p	-0.16	-0.16	0.72	2007, 2011
+Wnt2b	ENSMUST00000029429.4	wingless related MMTV integration site 2b 	74	1	0	1	0	0	0	0	0	4	mmu-miR-7a-5p	-0.16	-0.17	0.67	2009, 2011
+Rfx2	ENSMUST00000002444.8	regulatory factor X, 2 (influences HLA class II expression) 	201	1	1	0	0	1	1	0	0	0	mmu-miR-7a-5p	-0.16	-0.16	< 0.1	2007, 2009, 2011
+Srgap2	ENSMUST00000097588.3	SLIT-ROBO Rho GTPase activating protein 2 	856	1	0	0	1	1	0	1	0	6	mmu-miR-7a-5p	-0.15	-0.16	0.13	2007, 2009, 2011
+Abhd8	ENSMUST00000008094.8	abhydrolase domain containing 8 	61	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.15	-0.15	0.15	2005, 2007, 2009, 2011
+Cox6a1	ENSMUST00000040154.8	cytochrome c oxidase subunit VIa polypeptide 1 	619	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.15	-0.18	< 0.1	2005, 2007, 2009, 2011
+Cnnm4	ENSMUST00000153128.1	cyclin M4 	86	1	0	1	0	2	0	0	2	0	mmu-miR-7a-5p	-0.15	-0.15	0.27	2005, 2007, 2009, 2011
+Cacnb4	ENSMUST00000178799.2	calcium channel, voltage-dependent, beta 4 subunit 	26	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.15	-0.17	< 0.1	2009, 2011
+Extl3	ENSMUST00000022550.7	exostoses (multiple)-like 3 	167	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.15	-0.16	0.63	2005, 2007, 2009, 2011
+Hcn4	ENSMUST00000034889.8	hyperpolarization-activated, cyclic nucleotide-gated K+ 4 	12	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.15	-0.22	< 0.1	
+Tada2b	ENSMUST00000031097.7	transcriptional adaptor 2B 	41	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.14	-0.16	0.55	2011
+Mbd2	ENSMUST00000074058.5	methyl-CpG binding domain protein 2 	4576	1	0	0	1	0	0	0	0	0	mmu-miR-7b-5p	-0.14	-0.15	0.27	2005, 2007, 2009, 2011
+Rsbn1l	ENSMUST00000036489.5	round spermatid basic protein 1-like 	242	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.14	-0.33	0.73	2009, 2011
+Rnf103	ENSMUST00000114178.2	ring finger protein 103 	693	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.14	-0.48	< 0.1	
+Gata6	ENSMUST00000047762.7	GATA binding protein 6 	407	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.14	-0.14	0.40	2005, 2007, 2009, 2011
+Slc4a7	ENSMUST00000057015.6	solute carrier family 4, sodium bicarbonate cotransporter, member 7 	2207	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.14	-0.14	< 0.1	2005, 2007, 2009, 2011
+Pilra	ENSMUST00000058897.5	paired immunoglobin-like type 2 receptor alpha 	92	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.14	-0.31	ORF	
+Adcy9	ENSMUST00000117801.2	adenylate cyclase 9 	694	2	2	0	0	2	0	0	2	0	mmu-miR-7a-5p	-0.14	-0.15	0.89	2005, 2007
+Shank2	ENSMUST00000105902.2	SH3/ankyrin domain gene 2 	97	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.14	-0.15	0.80	2005, 2007
+Zhx3	ENSMUST00000103111.3	zinc fingers and homeoboxes 3 	562	1	0	1	0	1	0	1	0	4	mmu-miR-7a-5p	-0.14	-0.18	0.29	2005, 2007
+Cdc25b	ENSMUST00000079857.8	cell division cycle 25B 	847	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.14	-0.14	0.14	2005, 2007, 2009, 2011
+Phactr1	ENSMUST00000148891.2	phosphatase and actin regulator 1 	28	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.14	-0.18	0.25	2009, 2011
+Rbfox3	ENSMUST00000017576.5	RNA binding protein, fox-1 homolog (C. elegans) 3 	14	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.13	-0.25	0.49	2007, 2009, 2011
+Klhl28	ENSMUST00000021331.7	kelch-like 28 	187	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.13	-0.17	< 0.1	2007
+Tbkbp1	ENSMUST00000066078.6	TBK1 binding protein 1 	225	2	0	1	1	1	0	0	1	1	mmu-miR-7a-5p	-0.13	-0.13	0.14	2007, 2009, 2011
+Zfand4	ENSMUST00000036503.8	zinc finger, AN1-type domain 4 	136	1	0	0	1	2	0	1	1	0	mmu-miR-7a-5p	-0.13	-0.22	< 0.1	2007
+Tbc1d10b	ENSMUST00000120705.1	TBC1 domain family, member 10b 	1010	1	0	1	0	1	0	0	1	2	mmu-miR-7a-5p	-0.13	-0.16	0.34	2005, 2007, 2009, 2011
+Smarca4	ENSMUST00000098948.4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 	4130	1	0	0	1	2	0	0	2	1	mmu-miR-7a-5p	-0.13	-0.15	0.32	2005, 2007, 2009, 2011
+Plxna1	ENSMUST00000163139.2	plexin A1 	558	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.12	-0.13	0.53	2005, 2007, 2011
+Tk2	ENSMUST00000050211.5	thymidine kinase 2, mitochondrial 	319	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.12	-0.12	< 0.1	2005, 2007, 2009, 2011
+Doc2b	ENSMUST00000021209.7	double C2, beta 	17	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.12	-0.18	0.67	2009, 2011
+Socs2	ENSMUST00000020215.10	suppressor of cytokine signaling 2 	3023	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.12	-0.12	< 0.1	2005, 2007, 2011
+Pappa	ENSMUST00000084501.3	pregnancy-associated plasma protein A 	33	1	0	0	1	1	0	1	0	3	mmu-miR-7a-5p	-0.12	-0.12	0.27	2005, 2007, 2009, 2011
+Slc38a4	ENSMUST00000023101.4	solute carrier family 38, member 4 	3191	1	0	1	0	3	0	2	1	3	mmu-miR-7a-5p	-0.12	-0.42	0.72	2005, 2007, 2009, 2011
+Asxl1	ENSMUST00000109790.1	additional sex combs like 1 	1707	1	1	0	0	1	0	0	1	3	mmu-miR-7a-5p	-0.12	-0.23	0.62	2005, 2007, 2009, 2011
+Wwp1	ENSMUST00000108246.3	WW domain containing E3 ubiquitin protein ligase 1 	2672	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.12	-0.12	0.42	2005, 2007, 2009, 2011
+Zbtb38	ENSMUST00000152594.2	zinc finger and BTB domain containing 38 	1147	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.12	-0.12	0.64	2007
+Shank1	ENSMUST00000107938.2	SH3/ankyrin domain gene 1 	14	1	1	0	0	1	0	1	0	2	mmu-miR-7a-5p	-0.12	-0.18	0.60	2011
+Ssx2ip	ENSMUST00000106153.3	synovial sarcoma, X breakpoint 2 interacting protein 	103	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.12	-0.19	0.17	2005, 2007, 2009, 2011
+Ltn1	ENSMUST00000039449.7	listerin E3 ubiquitin protein ligase 1 	1140	1	1	0	0	0	0	0	0	2	mmu-miR-7b-5p	-0.12	-0.34	0.51	2007, 2009, 2011
+Trak2	ENSMUST00000174120.1	trafficking protein, kinesin binding 2 	678	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.12	-0.12	< 0.1	
+Eif4ebp2	ENSMUST00000020288.8	eukaryotic translation initiation factor 4E binding protein 2 	13138	1	0	0	1	1	0	0	1	4	mmu-miR-7a-5p	-0.11	-0.11	< 0.1	2005, 2007, 2009, 2011
+Zbtb43	ENSMUST00000028125.6	zinc finger and BTB domain containing 43 	604	1	0	0	1	2	0	0	2	0	mmu-miR-7a-5p	-0.11	-0.11	0.12	2007, 2009, 2011
+Rras2	ENSMUST00000069449.5	related RAS viral (r-ras) oncogene homolog 2 	4798	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.11	-0.37	0.60	2009, 2011
+Tnrc6a	ENSMUST00000094053.5	trinucleotide repeat containing 6a 	1115	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.11	-0.11	< 0.1	2005, 2007, 2009, 2011
+Mapkap1	ENSMUST00000113126.1	mitogen-activated protein kinase associated protein 1 	831	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.11	-0.51	0.67	2005, 2007, 2009, 2011
+Kirrel	ENSMUST00000159976.2	kin of IRRE like (Drosophila) 	961	1	0	0	1	2	0	1	1	2	mmu-miR-7a-5p	-0.11	-0.11	< 0.1	2011
+Spopl	ENSMUST00000132484.1	speckle-type POZ protein-like 	543	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.11	-0.12	< 0.1	2007, 2009, 2011
+Aplp2	ENSMUST00000072634.8	amyloid beta (A4) precursor-like protein 2 	1577	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.11	-0.11	< 0.1	2005, 2007, 2009, 2011
+Rest	ENSMUST00000080359.6	RE1-silencing transcription factor 	21	1	1	0	0	1	1	0	0	0	mmu-miR-7a-5p	-0.11	-0.23	0.49	
+Shq1	ENSMUST00000113312.3	SHQ1 homolog (S. cerevisiae) 	92	1	1	0	0	1	0	1	0	1	mmu-miR-7a-5p	-0.11	-0.41	< 0.1	
+Icmt	ENSMUST00000048892.8	isoprenylcysteine carboxyl methyltransferase 	720	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.10	-0.11	< 0.1	2005, 2007, 2009, 2011
+Mgat4c	ENSMUST00000163753.2	mannosyl (alpha-1,3-)-glycoprotein beta-1,4-N-acetylglucosaminyltransferase, isozyme C (putative) 	5	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.10	-0.10	0.50	2007, 2009, 2011
+Clip3	ENSMUST00000014065.9	CAP-GLY domain containing linker protein 3 	90	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.10	-0.12	0.14	2007, 2009, 2011
+Slc16a7	ENSMUST00000063318.3	solute carrier family 16 (monocarboxylic acid transporters), member 7 	330	1	0	0	1	1	0	1	0	4	mmu-miR-7a-5p	-0.10	-0.16	0.12	
+Tnk2	ENSMUST00000115126.2	tyrosine kinase, non-receptor, 2 	2234	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.10	-0.10	< 0.1	2005, 2007, 2009, 2011
+Zfp91	ENSMUST00000038627.8	zinc finger protein 91 	823	1	0	1	0	2	0	1	1	2	mmu-miR-7a-5p	-0.10	-0.28	0.59	2005, 2007, 2009, 2011
+Ralgapa2	ENSMUST00000109986.3	Ral GTPase activating protein, alpha subunit 2 (catalytic) 	428	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.10	-0.11	0.37	2009, 2011
+Ppp6r3	ENSMUST00000113997.3	protein phosphatase 6, regulatory subunit 3 	5638	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.10	-0.10	0.27	2007, 2009, 2011
+CTNND1	ENSMUST00000189772.1	Catenin delta-1  	1459	1	0	0	1	5	1	3	1	9	mmu-miR-7b-5p	-0.10	-0.36	< 0.1	
+Vdac1	ENSMUST00000102758.2	voltage-dependent anion channel 1 	72	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.10	-0.58	0.63	2005, 2007, 2009, 2011
+Ctnnd1	ENSMUST00000111696.2	catenin (cadherin associated protein), delta 1 	1459	1	0	0	1	5	1	3	1	9	mmu-miR-7b-5p	-0.10	-0.36	< 0.1	2005, 2007, 2009, 2011
+Mpzl3	ENSMUST00000114664.2	myelin protein zero-like 3 	453	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.10	-0.10	< 0.1	2009, 2011
+Rpgrip1	ENSMUST00000111600.5	retinitis pigmentosa GTPase regulator interacting protein 1 	7	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.10	-0.14	< 0.1	2009, 2011
+Rspry1	ENSMUST00000060389.8	ring finger and SPRY domain containing 1 	622	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.10	-0.37	0.39	2009, 2011
+Hadh	ENSMUST00000029610.8	hydroxyacyl-Coenzyme A dehydrogenase 	7642	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.09	-0.36	0.70	2007, 2009, 2011
+Tapt1	ENSMUST00000055128.7	transmembrane anterior posterior transformation 1 	413	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2007, 2009, 2011
+Fam168a	ENSMUST00000049053.7	family with sequence similarity 168, member A 	201	1	1	0	0	0	0	0	0	4	mmu-miR-7a-5p	-0.09	-0.44	0.83	2009, 2011
+Tmem64	ENSMUST00000062684.8	transmembrane protein 64 	1560	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2007, 2009, 2011
+Zfp652	ENSMUST00000107717.2	zinc finger protein 652 	474	1	0	1	0	2	0	0	2	3	mmu-miR-7a-5p	-0.09	-0.19	0.59	
+Sept8	ENSMUST00000117061.2	septin 8 	1534	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2009, 2011
+Sgk1	ENSMUST00000020145.6	serum/glucocorticoid regulated kinase 1 	5205	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2007, 2009, 2011
+Cadm3	ENSMUST00000111220.2	cell adhesion molecule 3 	149	2	0	1	1	1	0	0	1	1	mmu-miR-7a-5p	-0.09	-0.25	0.33	2007, 2009, 2011
+Braf	ENSMUST00000002487.9	Braf transforming gene 	393	1	0	0	1	1	0	0	1	5	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2009, 2011
+Rfx7	ENSMUST00000093820.4	regulatory factor X, 7 	269	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	-0.09	-0.18	0.66	2007, 2009, 2011
+Basp1	ENSMUST00000058845.7	brain abundant, membrane attached signal protein 1 	43	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.09	-0.12	< 0.1	2005, 2007, 2011
+Dlgap1	ENSMUST00000133983.2	discs, large (Drosophila) homolog-associated protein 1 	8	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.09	-0.09	0.17	2009, 2011
+Cntnap1	ENSMUST00000103109.3	contactin associated protein-like 1 	63	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.09	-0.09	< 0.1	2005, 2007, 2009, 2011
+Orai1	ENSMUST00000051016.4	ORAI calcium release-activated calcium modulator 1 	378	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.09	-0.11	< 0.1	2007, 2009, 2011
+Trim24	ENSMUST00000031859.8	tripartite motif-containing 24 	61	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.09	-0.18	< 0.1	
+Ulk2	ENSMUST00000004920.3	unc-51 like kinase 2 	2264	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.08	-0.10	0.31	2005, 2007, 2009, 2011
+Tcerg1	ENSMUST00000025375.8	transcription elongation regulator 1 (CA150) 	1932	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.08	-0.08	< 0.1	2005, 2007, 2009, 2011
+Slc6a8	ENSMUST00000033752.8	solute carrier family 6 (neurotransmitter transporter, creatine), member 8 	152	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.08	-0.31	0.45	2005, 2007, 2009, 2011
+Trove2	ENSMUST00000159879.1	TROVE domain family, member 2 	122	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.08	-0.40	0.75	2009, 2011
+Edc3	ENSMUST00000043990.8	enhancer of mRNA decapping 3 homolog (S. cerevisiae) 	1085	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.08	-0.54	0.20	
+Hhip	ENSMUST00000079038.2	Hedgehog-interacting protein 	27	1	1	0	0	4	1	2	1	2	mmu-miR-7a-5p	-0.08	-0.53	0.70	2009, 2011
+Ppp1r2	ENSMUST00000060188.8	protein phosphatase 1, regulatory (inhibitor) subunit 2 	2115	1	0	0	1	1	0	1	0	2	mmu-miR-7a-5p	-0.08	-0.22	< 0.1	2005, 2007, 2009, 2011
+Kcnb1	ENSMUST00000059826.8	potassium voltage gated channel, Shab-related subfamily, member 1 	175	2	0	2	0	1	0	0	1	2	mmu-miR-7a-5p	-0.07	-0.09	0.43	
+Slc25a16	ENSMUST00000044977.4	solute carrier family 25 (mitochondrial carrier, Graves disease autoantigen), member 16 	1279	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.07	-0.07	0.25	2005, 2007, 2009, 2011
+1110032F04Rik	ENSMUST00000054551.2	RIKEN cDNA 1110032F04 gene 	22	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.07	-0.07	0.16	2011
+Lss	ENSMUST00000048678.6	lanosterol synthase 	442	1	0	1	0	1	0	1	0	1	mmu-miR-7a-5p	-0.07	-0.38	0.66	2005, 2007
+Zfp397	ENSMUST00000060762.4	zinc finger protein 397 	563	1	0	1	0	2	0	1	1	0	mmu-miR-7a-5p	-0.07	-0.37	0.14	2009, 2011
+Hnrnpul2	ENSMUST00000096753.3	heterogeneous nuclear ribonucleoprotein U-like 2 	4506	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.07	-0.14	0.67	2009, 2011
+Psmf1	ENSMUST00000042452.5	proteasome (prosome, macropain) inhibitor subunit 1 	1826	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.07	-0.35	< 0.1	2005, 2007, 2009, 2011
+Bzw1	ENSMUST00000050552.9	basic leucine zipper and W2 domains 1 	3021	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.07	-0.24	0.24	
+Pik3cb	ENSMUST00000035037.8	phosphatidylinositol 3-kinase, catalytic, beta polypeptide 	530	1	0	0	1	1	0	1	0	0	mmu-miR-7a-5p	-0.06	-0.17	0.35	2009, 2011
+Csnk2a1	ENSMUST00000099224.4	casein kinase 2, alpha 1 polypeptide 	2027	1	0	0	1	1	1	0	0	0	mmu-miR-7a-5p	-0.06	-0.11	0.19	2009, 2011
+Shank3	ENSMUST00000109309.2	SH3/ankyrin domain gene 3 	160	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.06	-0.06	0.39	2007, 2011
+Nfic	ENSMUST00000020461.9	nuclear factor I/C 	184	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.06	-0.11	0.29	2009, 2011
+Bmpr2	ENSMUST00000087435.6	bone morphogenetic protein receptor, type II (serine/threonine kinase) 	2928	1	0	0	1	0	0	0	0	2	mmu-miR-7b-5p	-0.06	-0.06	< 0.1	2005, 2007
+Srsf1	ENSMUST00000079866.5	serine/arginine-rich splicing factor 1 	3442	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.06	-0.06	< 0.1	2007, 2009, 2011
+Usp6nl	ENSMUST00000114937.2	USP6 N-terminal like 	666	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.06	-0.16	0.15	2009, 2011
+Usp48	ENSMUST00000105840.2	ubiquitin specific peptidase 48 	3448	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.06	-0.06	0.39	2005, 2007, 2009, 2011
+Gatad2b	ENSMUST00000049382.4	GATA zinc finger domain containing 2B 	132	1	0	0	1	3	0	2	1	5	mmu-miR-7a-5p	-0.06	-0.09	< 0.1	2005, 2007
+Fam83b	ENSMUST00000183437.2	family with sequence similarity 83, member B 	32	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.06	-0.07	< 0.1	
+Fbxo7	ENSMUST00000130320.2	F-box protein 7 	265	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.05	-0.24	0.41	
+Fbxo28	ENSMUST00000051431.4	F-box protein 28 	537	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.05	-0.29	0.14	2009, 2011
+Fam120a	ENSMUST00000060805.6	family with sequence similarity 120, member A 	66	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.05	-0.08	< 0.1	2007, 2009, 2011
+Hoxd4	ENSMUST00000047904.3	homeobox D4 	198	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.05	-0.19	< 0.1	
+Socs7	ENSMUST00000045540.3	suppressor of cytokine signaling 7 	64	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.05	-0.16	0.44	2009, 2011
+Arid2	ENSMUST00000096250.4	AT rich interactive domain 2 (ARID, RFX-like) 	2256	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.05	-0.05	0.32	2005, 2007, 2009, 2011
+Slc16a10	ENSMUST00000092566.6	solute carrier family 16 (monocarboxylic acid transporters), member 10 	332	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.05	-0.06	< 0.1	2005, 2007, 2009, 2011
+Fbxw2	ENSMUST00000028220.4	F-box and WD-40 domain protein 2 	1375	1	1	0	0	1	0	0	1	2	mmu-miR-7a-5p	-0.05	-0.54	0.67	2007, 2009, 2011
+Prkrir	ENSMUST00000033009.10	protein-kinase, interferon-inducible double stranded RNA dependent inhibitor, repressor of (P58 repressor) 	4083	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.05	-0.05	< 0.1	2005, 2007, 2009, 2011
+Pfn4	ENSMUST00000020967.5	profilin family, member 4 	41	2	1	0	1	1	0	1	0	0	mmu-miR-7a-5p	-0.05	-1.50	0.15	
+Med12l	ENSMUST00000040325.8	mediator complex subunit 12-like 	64	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	-0.05	-0.10	< 0.1	2011
+Ogt	ENSMUST00000044475.4	O-linked N-acetylglucosamine (GlcNAc) transferase (UDP-N-acetylglucosamine:polypeptide-N-acetylglucosaminyl transferase) 	4379	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.05	0.22	2005, 2007, 2009, 2011
+Chd3	ENSMUST00000108661.2	chromodomain helicase DNA binding protein 3 	48	1	1	0	0	1	0	0	1	0	mmu-miR-7a-5p	-0.04	-0.05	0.38	2005, 2007, 2009, 2011
+Atrn	ENSMUST00000028781.8	attractin 	640	1	0	0	1	2	0	2	0	1	mmu-miR-7a-5p	-0.04	-0.05	< 0.1	2005, 2007, 2009, 2011
+Psen1	ENSMUST00000101225.1	presenilin 1 	3593	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	-0.04	-0.10	< 0.1	2005, 2007, 2009, 2011
+Anxa13	ENSMUST00000068515.7	annexin A13 	57	1	0	1	0	1	1	0	0	2	mmu-miR-7a-5p	-0.04	-0.30	0.40	
+Itga4	ENSMUST00000099972.4	integrin alpha 4 	76	1	0	0	1	4	1	0	3	2	mmu-miR-7a-5p	-0.04	-0.07	< 0.1	2009, 2011
+Tnrc6b	ENSMUST00000067689.7	trinucleotide repeat containing 6b 	464	1	0	0	1	3	0	0	3	0	mmu-miR-7a-5p	-0.04	-0.05	< 0.1	2007, 2009, 2011
+Mtfr1l	ENSMUST00000102550.4	mitochondrial fission regulator 1-like 	2746	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.04	-0.22	< 0.1	2007, 2009, 2011
+Sephs1	ENSMUST00000027973.8	selenophosphate synthetase 1 	2839	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.40	< 0.1	2009, 2011
+Zmat2	ENSMUST00000001419.8	zinc finger, matrin type 2 	4295	1	0	1	0	0	0	0	0	4	mmu-miR-7a-5p	-0.04	-0.35	0.69	2005, 2007, 2009, 2011
+Hcfc2	ENSMUST00000020478.8	host cell factor C2 	317	1	0	1	0	5	0	0	5	2	mmu-miR-7b-5p	-0.04	-0.45	0.20	
+Suds3	ENSMUST00000086471.6	suppressor of defective silencing 3 homolog (S. cerevisiae) 	1762	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.06	< 0.1	2007, 2009, 2011
+Ddi2	ENSMUST00000102484.4	DNA-damage inducible protein 2 	2606	1	0	0	1	1	1	0	0	5	mmu-miR-7a-5p	-0.04	-0.04	< 0.1	
+Uhmk1	ENSMUST00000123399.1	U2AF homology motif (UHM) kinase 1 	267	1	0	0	1	2	0	0	2	6	mmu-miR-7a-5p	-0.04	-0.05	< 0.1	2007, 2009, 2011
+Aak1	ENSMUST00000089519.7	AP2 associated kinase 1 	1079	1	0	1	0	1	0	1	0	3	mmu-miR-7a-5p	-0.04	-0.04	0.20	2007, 2009, 2011
+Egr3	ENSMUST00000035908.1	early growth response 3 	205	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.04	< 0.1	2005, 2007
+Cpeb2	ENSMUST00000169035.2	cytoplasmic polyadenylation element binding protein 2 	1473	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.04	< 0.1	2005, 2007, 2011
+Slc25a37	ENSMUST00000037064.4	solute carrier family 25, member 37 	114	2	0	0	2	0	0	0	0	0	mmu-miR-7a-5p	-0.04	-0.05	< 0.1	2007, 2009, 2011
+Crebrf	ENSMUST00000062519.8	CREB3 regulatory factor 	256	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.04	-0.28	0.50	2011
+Rybp	ENSMUST00000101118.2	RING1 and YY1 binding protein 	75	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.03	-0.10	< 0.1	2005, 2007, 2009, 2011
+Ccdc89	ENSMUST00000061391.7	coiled-coil domain containing 89 	29	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.03	-0.06	< 0.1	
+Crybg3	ENSMUST00000044604.9	beta-gamma crystallin domain containing 3 	1091	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.03	-0.03	< 0.1	2007, 2009, 2011
+Fam134a	ENSMUST00000097694.5	family with sequence similarity 134, member A 	2091	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.03	-0.17	0.19	
+Atg7	ENSMUST00000032457.11	autophagy related 7 	381	1	0	0	1	1	0	1	0	0	mmu-miR-7a-5p	-0.03	-0.14	< 0.1	2009, 2011
+Nucks1	ENSMUST00000062264.7	nuclear casein kinase and cyclin-dependent kinase substrate 1 	2244	2	0	2	0	1	0	0	1	0	mmu-miR-7a-5p	-0.03	-0.55	0.41	2011
+Zbtb1	ENSMUST00000042779.3	zinc finger and BTB domain containing 1 	247	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.03	-0.19	0.60	2007
+Nlgn2	ENSMUST00000056484.4	neuroligin 2 	34	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.03	-0.10	0.27	2005, 2007, 2009, 2011
+Pcsk1	ENSMUST00000022075.4	proprotein convertase subtilisin/kexin type 1 	23	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.03	-0.20	0.16	2005, 2007
+Igf2bp2	ENSMUST00000100052.5	insulin-like growth factor 2 mRNA binding protein 2 	40	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.03	-0.13	0.30	2007, 2009, 2011
+Klf13	ENSMUST00000063694.8	Kruppel-like factor 13 	96	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.03	-0.06	0.14	2007, 2011
+Vti1a	ENSMUST00000095950.2	vesicle transport through interaction with t-SNAREs 1A 	693	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.03	-0.35	0.70	
+Zmiz1	ENSMUST00000162645.2	zinc finger, MIZ-type containing 1 	2629	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.03	-0.03	< 0.1	2007, 2009, 2011
+Kmt2a	ENSMUST00000114689.2	lysine (K)-specific methyltransferase 2A 	1581	1	0	0	1	0	0	0	0	3	mmu-miR-7a-5p	-0.02	-0.03	< 0.1	2007, 2009, 2011
+Mios	ENSMUST00000040017.7	missing oocyte, meiosis regulator, homolog (Drosophila) 	776	1	0	1	0	3	0	0	3	0	mmu-miR-7a-5p	-0.02	-0.30	0.42	2009, 2011
+Rc3h2	ENSMUST00000100143.4	ring finger and CCCH-type zinc finger domains 2 	178	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.02	-0.03	< 0.1	2009, 2011
+Elavl3	ENSMUST00000003501.7	ELAV (embryonic lethal, abnormal vision, Drosophila)-like 3 (Hu antigen C) 	14	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	-0.02	-0.03	0.59	2005, 2007, 2011
+Fxr1	ENSMUST00000001620.8	fragile X mental retardation gene 1, autosomal homolog 	8337	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.02	-0.18	0.42	2007
+Fam104a	ENSMUST00000120194.1	family with sequence similarity 104, member A 	631	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.02	-0.10	< 0.1	2007
+Ptk2	ENSMUST00000110036.3	PTK2 protein tyrosine kinase 2 	1066	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.02	-0.17	0.32	2005, 2007, 2009, 2011
+Prdm11	ENSMUST00000111274.2	PR domain containing 11 	40	1	0	0	1	1	0	0	1	1	mmu-miR-7a-5p	-0.02	-0.02	0.33	2005, 2007
+Bahd1	ENSMUST00000036578.6	bromo adjacent homology domain containing 1 	147	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.02	-0.02	0.14	2007, 2009, 2011
+Klf9	ENSMUST00000036884.1	Kruppel-like factor 9 	771	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.02	-0.03	< 0.1	2005, 2007
+Col4a3bp	ENSMUST00000077672.5	collagen, type IV, alpha 3 (Goodpasture antigen) binding protein 	198	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.02	-0.10	< 0.1	2011
+Ssbp2	ENSMUST00000004094.9	single-stranded DNA binding protein 2 	715	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.02	-0.29	0.70	2011
+Pogk	ENSMUST00000131487.2	pogo transposable element with KRAB domain 	370	1	0	0	1	1	0	0	1	3	mmu-miR-7a-5p	-0.02	-0.02	< 0.1	2005, 2007, 2009, 2011
+Kdm7a	ENSMUST00000002305.8	lysine (K)-specific demethylase 7A 	770	1	0	0	1	1	0	0	1	2	mmu-miR-7a-5p	-0.02	-0.02	< 0.1	2007, 2009, 2011
+Fzd5	ENSMUST00000063982.6	frizzled homolog 5 (Drosophila) 	316	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.02	-0.02	0.14	2007, 2009, 2011
+Commd1	ENSMUST00000159081.2	COMM domain containing 1 	189	1	1	0	0	3	1	0	2	2	mmu-miR-7a-5p	-0.02	-0.49	0.45	
+Nfib	ENSMUST00000107245.3	nuclear factor I/B 	2888	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	-0.02	-0.02	0.13	2007, 2009, 2011
+Agps	ENSMUST00000047232.8	alkylglycerone phosphate synthase 	4474	1	0	1	0	0	0	0	0	2	mmu-miR-7a-5p	-0.01	-0.24	0.60	2011
+Eif5b	ENSMUST00000027252.7	eukaryotic translation initiation factor 5B 	574	1	0	0	1	1	1	0	0	4	mmu-miR-7a-5p	-0.01	-0.14	< 0.1	2011
+Hdlbp	ENSMUST00000170883.2	high density lipoprotein (HDL) binding protein 	5751	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.30	0.82	2007, 2009, 2011
+Nova2	ENSMUST00000032571.8	neuro-oncological ventral antigen 2 	223	1	1	0	0	0	0	0	0	7	mmu-miR-7a-5p	-0.01	-0.03	0.71	2011
+Ube2k	ENSMUST00000142407.2	ubiquitin-conjugating enzyme E2K 	1794	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.01	-0.10	< 0.1	2007, 2009, 2011
+Fam58b	ENSMUST00000059468.5	family with sequence similarity 58, member B 	91	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.01	-0.27	0.24	
+Plet1	ENSMUST00000114474.2	placenta expressed transcript 1 	770	1	1	0	0	3	0	2	1	1	mmu-miR-7a-5p	-0.01	-0.68	< 0.1	
+Pgm3	ENSMUST00000070064.5	phosphoglucomutase 3 	832	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	-0.01	-0.14	< 0.1	2011
+Lingo1	ENSMUST00000053568.1	leucine rich repeat and Ig domain containing 1 	21	1	0	0	1	0	0	0	0	3	mmu-miR-7a-5p	-0.01	-0.01	< 0.1	2007, 2009, 2011
+Oxr1	ENSMUST00000022918.8	oxidation resistance 1 	554	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	-0.01	-0.35	0.78	2007, 2009, 2011
+Lrrc71	ENSMUST00000023846.5	leucine rich repeat containing 71 	50	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.03	< 0.1	
+Kif1c	ENSMUST00000102554.2	kinesin family member 1C 	5983	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.01	-0.16	< 0.1	2009, 2011
+Cd72	ENSMUST00000098104.4	CD72 antigen 	18	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	-0.01	-0.04	ORF	
+Gga2	ENSMUST00000033160.9	golgi associated, gamma adaptin ear containing, ARF binding protein 2 	2811	1	0	0	1	1	0	1	0	0	mmu-miR-7a-5p	-0.01	-0.17	< 0.1	2005, 2007, 2009, 2011
+Grin2a	ENSMUST00000115835.2	glutamate receptor, ionotropic, NMDA2A (epsilon 1) 	6	1	0	0	1	6	1	3	2	5	mmu-miR-7a-5p	-0.01	-0.12	< 0.1	2005, 2007, 2009, 2011
+Gspt1	ENSMUST00000167571.2	G1 to S phase transition 1 	10733	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	-0.01	-0.26	0.57	2009, 2011
+Med13l	ENSMUST00000100816.4	mediator complex subunit 13-like 	868	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.01	< 0.1	2007, 2009, 2011
+Lrrc58	ENSMUST00000078717.6	leucine rich repeat containing 58 	92	1	0	1	0	2	0	0	2	4	mmu-miR-7a-5p	-0.01	-0.04	0.33	2009, 2011
+Ipo7	ENSMUST00000084731.3	importin 7 	920	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.30	0.71	
+Hoxa3	ENSMUST00000114434.3	homeobox A3 	48	1	0	1	0	2	0	1	1	2	mmu-miR-7a-5p	-0.01	-0.10	0.46	2005, 2007
+Mars2	ENSMUST00000061334.9	methionine-tRNA synthetase 2 (mitochondrial) 	450	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.03	< 0.1	
+Nhej1	ENSMUST00000152855.1	nonhomologous end-joining factor 1 	276	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	-0.01	-0.38	< 0.1	
+H6pd	ENSMUST00000084117.7	hexose-6-phosphate dehydrogenase (glucose 1-dehydrogenase) 	2518	1	1	0	0	0	0	0	0	2	mmu-miR-7a-5p	-0.01	-0.03	< 0.1	2007
+Brd3	ENSMUST00000028282.9	bromodomain containing 3 	296	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	-0.01	-0.02	< 0.1	2005, 2007, 2009, 2011
+Memo1	ENSMUST00000078459.6	mediator of cell motility 1 	375	1	0	0	1	0	0	0	0	9	mmu-miR-7a-5p	-0.01	-0.02	0.34	
+Rpusd2	ENSMUST00000028796.1	RNA pseudouridylate synthase domain containing 2 	80	1	1	0	0	1	0	1	0	4	mmu-miR-7b-5p	-0.01	-0.12	< 0.1	2011
+Hs2st1	ENSMUST00000043325.7	heparan sulfate 2-O-sulfotransferase 1 	972	1	0	0	1	4	0	2	2	3	mmu-miR-7a-5p	0	-0.27	< 0.1	
+Rbm26	ENSMUST00000163545.2	RNA binding motif protein 26 	238	1	0	1	0	2	0	0	2	1	mmu-miR-7a-5p	0	-0.29	0.28	
+Col1a2	ENSMUST00000031668.8	collagen, type I, alpha 2 	5625	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	0	-0.10	0.13	2005, 2007, 2009, 2011
+Fbxl6	ENSMUST00000023219.7	F-box and leucine-rich repeat protein 6 	8	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.01	< 0.1	
+Slc23a1	ENSMUST00000025212.5	solute carrier family 23 (nucleobase transporters), member 1 	435	2	0	0	2	1	0	0	1	3	mmu-miR-7b-5p	0	-0.19	< 0.1	
+Tet1	ENSMUST00000050826.8	tet methylcytosine dioxygenase 1 	33	1	0	0	1	0	0	0	0	3	mmu-miR-7a-5p	0	-0.01	0.11	2007, 2011
+Gemin2	ENSMUST00000021379.7	gem (nuclear organelle) associated protein 2 	964	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.32	0.72	
+Lin52	ENSMUST00000137170.1	lin-52 homolog (C. elegans) 	424	1	0	1	0	0	0	0	0	3	mmu-miR-7a-5p	0	-0.22	0.72	
+Alkbh3	ENSMUST00000111240.2	alkB, alkylation repair homolog 3 (E. coli) 	1023	1	1	0	0	1	0	1	0	2	mmu-miR-7b-5p	0	-0.21	< 0.1	
+Ubr5	ENSMUST00000110336.2	ubiquitin protein ligase E3 component n-recognin 5 	901	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	0	-0.06	< 0.1	
+Rrnad1	ENSMUST00000005016.10	ribosomal RNA adenine dimethylase domain containing 1 	308	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.04	< 0.1	
+Sdccag8	ENSMUST00000027785.9	serologically defined colon cancer antigen 8 	113	1	1	0	0	0	0	0	0	3	mmu-miR-7a-5p	0	-0.03	0.23	
+Becn1	ENSMUST00000130916.2	beclin 1, autophagy related 	1476	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.23	ORF	
+Lrp10	ENSMUST00000022782.8	low-density lipoprotein receptor-related protein 10 	1035	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.09	0.44	
+Ptpn6	ENSMUST00000004377.9	protein tyrosine phosphatase, non-receptor type 6 	64	1	0	0	1	0	0	0	0	2	mmu-miR-7a-5p	0	-0.01	0.26	
+Aldoc	ENSMUST00000017534.9	aldolase C, fructose-bisphosphate 	169	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.04	< 0.1	
+Adh1	ENSMUST00000004232.9	alcohol dehydrogenase 1 (class I) 	3397	1	1	0	0	0	0	0	0	1	mmu-miR-7a-5p	0	-0.31	< 0.1	
+Gmpr	ENSMUST00000000260.7	guanosine monophosphate reductase 	1547	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.10	0.41	
+Cnp	ENSMUST00000103120.4	2',3'-cyclic nucleotide 3' phosphodiesterase 	104	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.08	0.19	2005, 2007
+Cul1	ENSMUST00000031697.8	cullin 1 	1363	1	0	1	0	1	0	0	1	1	mmu-miR-7a-5p	0	-0.27	0.61	
+Tcea3	ENSMUST00000102533.5	transcription elongation factor A (SII), 3 	1478	1	0	1	0	0	0	0	0	1	mmu-miR-7a-5p	0	-0.09	0.16	
+1700003E16Rik	ENSMUST00000032106.4	RIKEN cDNA 1700003E16 gene 	35	1	0	0	1	1	0	0	1	0	mmu-miR-7a-5p	0	-0.04	< 0.1	
+Gpbp1	ENSMUST00000047627.8	GC-rich promoter binding protein 1 	1042	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.01	< 0.1	2009, 2011
+Ylpm1	ENSMUST00000021670.9	YLP motif containing 1 	3227	1	1	0	0	0	0	0	0	5	mmu-miR-7a-5p	0	-0.06	< 0.1	
+Ppl	ENSMUST00000035672.3	periplakin 	381	1	0	1	0	1	0	0	1	0	mmu-miR-7a-5p	0	-0.31	0.66	
+Prss12	ENSMUST00000029603.8	protease, serine 12 neurotrypsin (motopsin) 	44	1	0	0	1	0	0	0	0	0	mmu-miR-7a-5p	0	-0.02	0.40	
+Npepl1	ENSMUST00000044415.10	aminopeptidase-like 1 	1113	1	1	0	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.27	< 0.1	
+Dgkd	ENSMUST00000027517.8	diacylglycerol kinase, delta 	2455	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.10	< 0.1	2007
+Cetn3	ENSMUST00000022009.8	centrin 3 	2682	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.10	0.38	
+Aven	ENSMUST00000099588.3	apoptosis, caspase activation inhibitor 	1522	1	0	0	1	1	0	1	0	1	mmu-miR-7b-5p	0	-0.20	< 0.1	
+Tbc1d1	ENSMUST00000101195.3	TBC1 domain family, member 1 	699	1	1	0	0	1	0	0	1	1	mmu-miR-7a-5p	0	-0.04	< 0.1	
+Slirp	ENSMUST00000161023.2	SRA stem-loop interacting RNA binding protein 	7762	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.03	< 0.1	
+Uba5	ENSMUST00000035166.6	ubiquitin-like modifier activating enzyme 5 	947	1	0	0	1	1	0	1	0	0	mmu-miR-7a-5p	0	-0.03	< 0.1	
+Rufy2	ENSMUST00000119567.2	RUN and FYVE domain-containing 2 	362	1	0	0	1	0	0	0	0	1	mmu-miR-7a-5p	0	-0.01	ORF	
+Abcc6	ENSMUST00000002850.5	ATP-binding cassette, sub-family C (CFTR/MRP), member 6 	665	1	0	1	0	1	0	1	0	2	mmu-miR-7a-5p	0	-0.12	0.62	
+Psmd2	ENSMUST00000007212.8	proteasome (prosome, macropain) 26S subunit, non-ATPase, 2 	7910	1	0	1	0	0	0	0	0	0	mmu-miR-7a-5p	0	-0.02	0.26	
+Otud7a	ENSMUST00000058476.8	OTU domain containing 7A 	10	1	0	0	1	2	0	0	2	2	mmu-miR-7a-5p	0	-0.03	< 0.1	

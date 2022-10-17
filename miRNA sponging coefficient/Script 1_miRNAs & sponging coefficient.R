@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------------
 
 # First specify the packages of interest
-packages = c("tidyverse", "viridis", "fuzzyjoin", "ggpubr", "ggrepel")
+packages = c("tidyverse", "viridis", "fuzzyjoin", "ggpubr", "ggrepel", "emmeans", "rstatix")
 
 # Now load or install&load all
 package.check <- lapply(
@@ -100,26 +100,29 @@ most_sponged_miRNAs$quartile <- gsub(pattern = "4", replacement = "+++ sponged",
 
 # General landscape of microRNA expression and the number of sites each miRNA has available
 
-ggl <- ggplot(data = most_sponged_miRNAs, aes(x = log10(H9_RPM), y = log2FoldChange_miR, color = Total_TargetSites)) +
-  geom_point() + xlim(0,7) + ylim(-30,30) +
-  scale_color_viridis(option = "D", direction = -1, name = "miRNA-specific\n'Effective' sites\non all circRNAs") +
-  xlab("miRNA RPM pre-differentiation (log10)") + ylab("miRNA Fold change (log2)") + 
+ggl <- ggplot(data = most_sponged_miRNAs, aes(x = Total_TargetSites, y = log2FoldChange_miR)) +
+  stat_cor(method = "pearson") +
+  geom_point(color = "grey30", alpha = 0.8) + ylim(-20,20) +
+  xlab("miRNA-specific 'Effective' sites on all circRNAs") + ylab("miRNA Fold change (log2)") + 
   geom_text_repel(data = subset(most_sponged_miRNAs, Total_TargetSites > 1000),
-                  aes(x = log10(H9_RPM), y = log2FoldChange_miR),
+                  aes(x = log10(H9_RPM), y = Total_TargetSites),
                   label = subset(most_sponged_miRNAs, Total_TargetSites > 1000)$miRNAname,
                   size = 3, box.padding = 1, alpha = 0.8, segment.size = 0.2, segment.alpha = 0.7, color = "black") +
   theme_pubr(base_family = "Myriad Pro", base_size = 18) +
   theme(legend.text = element_text(size = 9),
         legend.title = element_text(size = 14),
-        legend.key.width = unit(0.6, 'cm'))
+        legend.key.width = unit(0.6, 'cm'),
+        plot.margin = margin(c(10,30,10,10))) +
+  stat_cor(label.x = 3, label.y = -25) 
 ggl
 
 ## microRNAs and sponging coefficient
 
-gspo <- ggplot(data = most_sponged_miRNAs, aes(x = log10(Sponging_Coefficient), y = log2FoldChange_miR, color = quartile, size = FB_RPM)) +
-  geom_point(alpha = 0.8) +
+gspo <- ggplot(data = most_sponged_miRNAs, aes(x = log10(Sponging_Coefficient), y = log2FoldChange_miR)) +
+  geom_point(alpha = 0.8, aes(color = quartile, size = H9_RPM)) +
+  stat_cor(method = "pearson") +
   scale_color_viridis(option = "D", direction = -1, discrete = TRUE, guide = "none") +
-  scale_size(name = "miRNA RPM\npost-differentiation") +
+  scale_size(name = "miRNA expression\nPre-differentiation", limits = c(1,150000)) +
   theme_pubr(base_family = "Myriad Pro", base_size = 18) + 
   geom_text_repel(data = subset(most_sponged_miRNAs, miRNAname == "hsa-miR-7-5p"),
                   aes(x = log10(Sponging_Coefficient), y = log2FoldChange_miR),
@@ -127,24 +130,37 @@ gspo <- ggplot(data = most_sponged_miRNAs, aes(x = log10(Sponging_Coefficient), 
                   size = 3, alpha = 0.9, segment.size = 0.2, segment.alpha = 0.7, color = "black",
                   nudge_x = 1, nudge_y = -10, arrow = arrow(angle = 10, length = unit(0.1, "inches"))) +
   theme(legend.text = element_text(size = 9),
-        legend.title = element_text(size = 16),
+        legend.title = element_text(size = 14),
         legend.key.width = unit(0.02, 'cm')) +
-  xlab("'Sponging' suffered -A.U.-(log10)") + ylab("miRNA Fold change (log2)")
+  xlab("'Sponging' suffered coefficient (log10)") + ylab("miRNA Fold change (log2)") +
+  ylim(-20,20)
 gspo
 
 ### Boxplot of the quartiles of microRNAs separated by sponging coefficient
+    # Test for normality first
+shapiro.test(most_sponged_miRNAs$log2FoldChange_miR) # If you run it, you'll see that the distribution is not normal.
+    # Do a general linear model, not assuming normality. 
+glmodel <- glm(data = most_sponged_miRNAs,
+             formula = log2FoldChange_miR ~ quartile)
+        # Follow up with estimated marginal means -emmeans- and contrasts.
+stat.test <- emmeans(glmodel, pairwise ~ quartile)
+stat.c <- cbind(data.frame(group1 = c("- sponged", "- sponged", "- sponged", "+ sponged", "+ sponged", "++ sponged"),
+                           group2 = c("+ sponged", "++ sponged", "+++ sponged", "++ sponged", "+++ sponged", "+++ sponged")), as_tibble(stat.test$contrasts)) %>% add_significance()
+stat.c <- stat.c[1:3,]
 
-gmsmbmi <- ggplot(data = most_sponged_miRNAs, aes(x = quartile, y = log2FoldChange_miR, fill = quartile)) +
-  geom_boxplot(outlier.shape = NA, notch = TRUE) +
+    #plot
+gmsmbmi <- ggplot(data = most_sponged_miRNAs, aes(x = quartile, y = log2FoldChange_miR)) +
+  geom_boxplot(outlier.shape = NA, notch = TRUE, aes(fill = quartile)) +
   geom_jitter(size = 0.1, alpha = 0.2) +
   scale_fill_viridis(discrete = TRUE, alpha = 0.6, guide = "none", option = "D", direction = -1) +
   xlab("") + ylab("miRNA Fold change (log2)") + 
   theme_pubr(base_family = "Myriad Pro", base_size = 18) + theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  stat_compare_means(comparisons = list(c("- sponged", "+ sponged"),
-                                        c("- sponged", "++ sponged"),
-                                        c("- sponged", "+++ sponged")), 
-                     label = "p.signif", method = 't.test', step_increase = 0.1, tip.length = 0) +
-  ylim(-15,20) +
+  stat_pvalue_manual(stat.c,
+                     label = "p.value.signif", 
+                     step_increase = 5, 
+                     y.position = c(10,13,16),
+                     tip.length = 0) +
+  ylim(-20,20) +
   theme(plot.margin = margin(c(50,70,0,10)))
 gmsmbmi
 

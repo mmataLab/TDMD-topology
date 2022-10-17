@@ -1,4 +1,4 @@
-### Script 3: Fisher tests and pie charts to assess enrichment of TDMD-like sites on circRNA through the quartiles of sponging coefficient
+### Script 4: Chi-squared test tests and pie charts to assess miRNA enrichment with double hits of TDMD-like sites on circRNA and linear RNA through the quartiles of sponging coefficient
 ### For inquiries: fuchsf@fbmc.fcen.uba.ar
 
 # ------------------------------------------------------------------------
@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------------
 
 # First specify the packages of interest
-packages = c("tidyverse")
+packages = c("tidyverse", "viridis")
 
 # Now load or install&load all
 package.check <- lapply(
@@ -20,11 +20,10 @@ package.check <- lapply(
 )
 
 
-if(!require(devtools)){
+if (!require(devtools)) {
   install.packages("devtools")
 }
 devtools::install_github("rkabacoff/ggpie")
-
 library(ggpie)
 
 # ------------------------------------------------------------------------
@@ -34,15 +33,26 @@ library(ggpie)
 # Set working directory
 setwd("~/Influence of target RNA topology on microRNA stability/Bioinformatics/")
 
-# Load tables (you need to have exported this table with script 2)
-sites_per_miR <- read_csv("./TDMD sites in circRNAs/Results/TDMD sites on circs per miR.csv")
+# Load tables
+  # circRNA matches
+#(you need to have exported this table with script 2)
+sites_per_miR_circ <- read_csv("./TDMD sites in circRNAs/Results/TDMD sites on circs per miR.csv") %>% rename_at("sites", ~"sites_on_circ")
+
+  # linRNA matches
+# (you need to have exported this table with script 2)
+sites_per_miR_lin <- read_csv("./TDMD sites in circRNAs/Results/TDMD sites on lins per miR.csv") %>% rename_at("sites", ~"sites_on_lin")
 
 # ------------------------------------------------------------------------
-# Analysis 
+# Analysis
 # ------------------------------------------------------------------------
+
+# Join the two tables
+sites_per_miR <- left_join(sites_per_miR_circ, sites_per_miR_lin)
 
 # Presence or absence of sites
-sites_per_miR$group <- ifelse(sites_per_miR$sites == 0, "No TDMD-like sites found", "≥1 TDMD-like site")
+sites_per_miR$group <- ifelse(sites_per_miR$sites_on_lin != 0 & sites_per_miR$sites_on_circ == 0, "≥ 1 site only on linear RNAs (3'UTRs only)",
+                              ifelse(sites_per_miR$sites_on_lin == 0 & sites_per_miR$sites_on_circ != 0, "≥ 1 site only on circRNAs",
+                                    ifelse(sites_per_miR$sites_on_lin != 0 & sites_per_miR$sites_on_circ != 0, "≥ 1 site on both circRNAs and linear RNAs (3'UTRs only)", "No predicted TDMD-like sites found")))
 
 # Count the number of miRNAs that have or not TDMD-like sites
 total_sites <- sites_per_miR %>% group_by(quartile, group) %>% summarise(number = n())
@@ -69,11 +79,11 @@ fq1vs4
 
 # Put the pvalues together in one data frame for plotting
 pvalue_text <- data.frame(
-                          label = c(paste("Fisher's Test, p = ", round(fq1vs2$p.value, 3)), 
-                                    paste("Fisher's Test, p = ", round(fq1vs3$p.value, 3)), 
-                                    paste("Fisher's Test, p = ", round(fq1vs4$p.value, 3))),
-                          quartile = c("+ sponged", "++ sponged", "+++ sponged")
-                          )
+  label = c(paste("Fisher's Test, p = ", round(fq1vs2$p.value, 3)), 
+            paste("Fisher's Test, p = ", round(fq1vs3$p.value, 5)), 
+            paste("Fisher's Test, p = ", round(fq1vs4$p.value, 3))),
+  quartile = c("+ sponged", "++ sponged", "+++ sponged")
+)
 
 # ------------------------------------------------------------------------
 # Plot
@@ -81,20 +91,20 @@ pvalue_text <- data.frame(
 
 # Pie chart for
 gpie <- ggpie::ggpie(data = sites_per_miR,
-      x = group,
-      by = quartile,
-      nrow = 1,                    # number of rows
-      border.color = "white",      # border color
-      border.width = 1.5,          # border width
-      label.color = "grey15",       # label color 
-      label.size = 3,              # label size
-      ) +
-  scale_fill_manual(values = c("#fde72595", "#44015495")) + 
+                     x = group,
+                     by = quartile,
+                     nrow = 1,                    # number of rows
+                     border.color = "white",      # border color
+                     border.width = 1.5,          # border width
+                     label.color = "grey15",       # label color 
+                     label.size = 3,              # label size
+) +
+  scale_fill_viridis(discrete = TRUE, direction = -1, alpha = 0.8) + 
   geom_text(data = pvalue_text, 
             aes(label = label), 
             x = Inf, 
             y = -Inf,
-            vjust = 20.5,
+            vjust = 21,
             hjust = 0.38,
             size = 2.5, 
             color = "grey30",
@@ -105,5 +115,7 @@ gpie <- ggpie::ggpie(data = sites_per_miR,
         legend.title = element_blank(),
         legend.position = "bottom",
         legend.text = element_text(size = 10),
-        plot.margin = unit(c(1,5,5,5), 'mm')) 
+        plot.margin = unit(c(1,5,5,5), 'mm')) +
+  guides(fill = guide_legend(nrow = 2, byrow = TRUE))
 gpie
+

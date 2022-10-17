@@ -1,4 +1,4 @@
-### Script 3: Fisher tests and pie charts to assess enrichment of TDMD-like sites on circRNA through the quartiles of sponging coefficient
+### Script 3b: Fisher tests and pie charts to assess enrichment of TDMD-like sites on linRNA through the quartiles of sponging coefficient
 ### For inquiries: fuchsf@fbmc.fcen.uba.ar
 
 # ------------------------------------------------------------------------
@@ -20,11 +20,10 @@ package.check <- lapply(
 )
 
 
-if(!require(devtools)){
+if (!require(devtools)){
   install.packages("devtools")
 }
 devtools::install_github("rkabacoff/ggpie")
-
 library(ggpie)
 
 # ------------------------------------------------------------------------
@@ -34,8 +33,8 @@ library(ggpie)
 # Set working directory
 setwd("~/Influence of target RNA topology on microRNA stability/Bioinformatics/")
 
-# Load tables (you need to have exported this table with script 2)
-sites_per_miR <- read_csv("./TDMD sites in circRNAs/Results/TDMD sites on circs per miR.csv")
+# Load tables (you need to have exported this table with script 2b)
+sites_per_miR <- read_csv("./TDMD sites in circRNAs/Results/TDMD sites on lins per miR.csv")
 
 # ------------------------------------------------------------------------
 # Analysis 
@@ -107,3 +106,4 @@ gpie <- ggpie::ggpie(data = sites_per_miR,
         legend.text = element_text(size = 10),
         plot.margin = unit(c(1,5,5,5), 'mm')) 
 gpie
+

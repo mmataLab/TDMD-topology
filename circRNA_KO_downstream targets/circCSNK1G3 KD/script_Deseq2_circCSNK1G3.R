@@ -66,7 +66,7 @@ colnames(miRTargets_Filtered) <- c( "HGNC.symbol","miRNA", "Site_Score")
     # Join the table of targets with the results from DESeq
 resT_miRTargets <- left_join(resT, miRTargets_Filtered, by = "HGNC.symbol")
     # Identify the genes that are miRNA targets
-data <- mutate(resT_miRTargets, target = ifelse(is.na(miRNA), "notarget", "target")) 
+data <- mutate(resT_miRTargets, target = ifelse(is.na(miRNA), "Non-Targets", "Targets")) 
     # Identify the genes that have a p-adj < 0.05
 data$threshold = as.factor(data$padj < 0.05)
     # lose NAs
@@ -80,12 +80,12 @@ data <- data %>% drop_na(threshold)
 
 gKD <- ggplot() +
   geom_point(data = data, aes(x = log2FoldChange, y = -log10(padj)), alpha = 0.4, size = 0.8, color = "gray") +
-  geom_point(data = subset(data, data$target == 'target'), 
+  geom_point(data = subset(data, data$target == 'Targets'), 
              aes(x = log2FoldChange, y = -log10(padj), color = threshold, shape = threshold), 
              alpha = 0.8, size = 2) +
   scale_color_discrete(name = "p-Adj < 0.05", type = c("red", "blue")) +
   scale_shape_discrete(name = "p-Adj < 0.05") +
-  xlab("Log2(Fold change)") + ylab("-Log10(p-adj)") + 
+  xlab("Fold change (log2)") + ylab("-Log10(p-adj)") + 
   geom_text_repel(data = subset(data, Gene.stable.ID.version == "ENSG00000100307.13"),
                   aes(x = log2FoldChange, y = -log10(padj)),
                   label = "CBX7",
@@ -95,26 +95,27 @@ gKD <- ggplot() +
         legend.title = element_text(size = 12))
 gKD
 
-# Box/violin plot of targets vs non targets from miR-181b/d-5p
+# Cumulative proportions
+    # Do a Wilcoxon test to compare target vs non targets
+WX.p.Val <- wilcox.test(log2FoldChange ~ target, data = data)$p.value
+WX.p.Val <- WX.p.Val %>% format(digits=3)
+WXP <- paste("WX p-value=", WX.p.Val)
+    # Plot
+gEDCF_circCSNK1G3KO <- ggplot(data, 
+                              aes(x=log2FoldChange, 
+                                  colour = target)) + 
+  stat_ecdf(size=1) + 
+  theme_pubr(base_family = "Myriad Pro", base_size = 18) +
+  theme(legend.title=element_blank()) +
+  labs(x = "Fold change (log2)", y="Cumulative proportion") + 
+  annotate("text", x = -2.5, y = 0.9, label = WXP, size = 4) + 
+  geom_vline(xintercept = 0, linetype="dashed",size=0.5) + 
+  scale_x_continuous(limits = c(-4,4), breaks=seq(-4, 4, 1)) 
 
-gB <- ggboxplot(data = subset(data, data$threshold == TRUE),
-               x = "target",
-               y = "log2FoldChange",
-               fill = "target",
-               palette = "grey",
-               add = "jitter",
-               add.params = list(size = 0.1, alpha = 0.1),
-               alpha = 0.3
-) +
-  stat_compare_means(method = "t.test", 
-                     comparisons = list(c("notarget","target")), 
-                     label = "p.signif", tip.length = 0, 
-                     size = 6, label.y = 9) +
-  ylim(-10,11) +
-  xlab("") + 
-  ylab("Fold change (log2)") + 
-  scale_x_discrete(labels = c("Non\nTargets", "Targets")) + 
-  theme_pubr(base_family = "Myriad Pro", base_size = 18, legend = "none")
-gB
-   
+gEDCF_circCSNK1G3KO
 
+
+#######
+ggarrange(gEDCF_Cdr1asKO, gEDCF_circCSNK1G3KO, 
+          labels = c("C", "E"),
+          ncol = 2, nrow = 1)

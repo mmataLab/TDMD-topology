@@ -6,7 +6,7 @@
 # ------------------------------------------------------------------------
 
 # First specify the packages of interest
-packages = c("tidyverse", "viridis", "fuzzyjoin", "ggpubr", "ggrepel")
+packages = c("tidyverse", "viridis", "fuzzyjoin", "ggpubr", "ggrepel", "emmeans", "rstatix")
 
 # Now load or install&load all
 package.check <- lapply(
@@ -84,6 +84,8 @@ most_sponging_circRNAs <- miRNA_circRNA_Overlaps %>%
 most_sponging_circRNAs$Effective_sites <- most_sponging_circRNAs$Total_Sites_Per_circ * most_sponging_circRNAs$H9_JReads
 
 # Split the circRNAs into quartiles according to the amount of effective sites
+# Filter to keep only expressed circRNAs
+most_sponging_circRNAs <- filter(most_sponging_circRNAs, H9_JReads > 1)
 most_sponging_circRNAs <- within(most_sponging_circRNAs, quartile <- as.integer(cut(Effective_sites, quantile(Effective_sites, type = 8), include.lowest=TRUE)))
 most_sponging_circRNAs$quartile <- gsub(pattern = "1", replacement = "- sites", most_sponging_circRNAs$quartile)
 most_sponging_circRNAs$quartile <- gsub(pattern = "2", replacement = "+ sites", most_sponging_circRNAs$quartile)
@@ -97,56 +99,74 @@ for (i in 1:nrow(miRNA_circRNA_Overlaps)) {
 }
 miRNA_circRNA_Overlaps <- miRNA_circRNA_Overlaps %>% drop_na(quartile)
 miRNA_circRNA_Overlaps$quartile <- factor(miRNA_circRNA_Overlaps$quartile, level = c("- sponged", "+ sponged", "++ sponged", "+++ sponged"))
+miRNA_circRNA_Overlaps <- filter(miRNA_circRNA_Overlaps, H9_JReads > 1)
 
 # ------------------------------------------------------------------------
 # Plots
 # ------------------------------------------------------------------------
 
-# Show the circRNAs colored by the amount of sites they offer to miRNAs 
-
-gcirc <- ggplot(data = most_sponging_circRNAs, aes(x = H9_JReads, y = log2FoldChange_circ, color = Effective_sites)) +
-  geom_point(alpha = 0.8) + ylim(-10,12) +
-  scale_color_viridis(direction = -1, option = "D", name = "All-miRNA\n'Effective' sites\nper circRNA") +
-  xlab("circRNA junction reads pre-differentiation") + ylab("circRNA Fold change (log2)") + 
-  geom_text_repel(data = subset(most_sponging_circRNAs, Effective_sites > 500),
-                  aes(x = H9_JReads, y = log2FoldChange_circ),
-                  label = subset(most_sponging_circRNAs, Effective_sites > 500)$geneName,
-                  color = "black", alpha = 0.9, size = 3, box.padding = 0.7, segment.size = 0.1, segment.alpha = 0.8) +
-  theme_pubr(base_family = "Myriad Pro", base_size = 18) +
-  theme(legend.text = element_text(size = 9),
-        legend.title = element_text(size = 14), 
-        axis.title.x = element_text(size = 17))
-gcirc
-
 # See what happens to the different quartiles of circRNAs according to the sites they have for miRNAs
+      # Test for normality first, use KS because the number is too big for Shapiro
+ks.test(x = most_sponging_circRNAs$log2FoldChange_circ, y = 'pnorm', alternative = 'two.sided') # If you run it, you'll see that the distribution is not normal.
+     # Do a general linear model, not assuming normality. 
+glmodel <- glm(data = most_sponging_circRNAs,
+               formula = log2FoldChange_circ ~ quartile)
+         # Follow up with estimated marginal means -emmeans- and contrasts.
+stat.test <- emmeans(glmodel, pairwise ~ quartile)
+stat.c <- cbind(data.frame(group1 = c("- sites", "- sites", "- sites", "+ sites", "+ sites", "++ sites"),
+                           group2 = c("+ sites", "++ sites", "+++ sites", "++ sites", "+++ sites", "+++ sites")), as_tibble(stat.test$contrasts)) %>% add_significance()
+stat.c <- stat.c[1:3,]
 
-gmscb <- ggplot(data = most_sponging_circRNAs, aes(x = quartile, y = log2FoldChange_circ, fill = quartile)) +
-  geom_boxplot(outlier.shape = NA) +
+gmscb <- ggplot(data = most_sponging_circRNAs, aes(x = quartile, y = log2FoldChange_circ)) +
+  geom_boxplot(outlier.shape = NA, aes(fill = quartile)) +
   geom_jitter(size = 0.1, alpha = 0.1) +
   scale_fill_viridis(discrete = TRUE, alpha = 0.6, guide = "none", option = "D", direction = -1) +
   xlab("") + ylab("circRNA Fold change (log2)") + 
-  ylim(-3,6) +
+  ylim(-3,7) +
+  stat_pvalue_manual(stat.c,
+                     label = "p.value.signif", 
+                     step_increase = 5, 
+                     y.position = c(4,4.8,5.6),
+                     tip.length = 0) +
   theme_pubr(base_family = "Myriad Pro", base_size = 18) + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         plot.margin = margin(c(50,70,22,10)))
 gmscb
 
 # See if the size of the circRNAs varies between those that interact with the most sponged miRNAs and others
+    # Test for normality first, use KS because the number is too big for Shapiro
+ks.test(x = miRNA_circRNA_Overlaps$circ.size, y = 'pnorm', alternative = 'two.sided') # If you run it, you'll see that the distribution is not normal.
+# Do a general linear model, not assuming normality. 
+glmodel <- glm(data = miRNA_circRNA_Overlaps,
+               formula = circ.size ~ quartile)
+        # Follow up with estimated marginal means -emmeans- and contrasts.
+stat.test <- emmeans(glmodel, pairwise ~ quartile)
+stat.c <- cbind(data.frame(group1 = c("- sponged", "- sponged", "- sponged", "+ sponged", "+ sponged", "++ sponged"),
+                           group2 = c("+ sponged", "++ sponged", "+++ sponged", "++ sponged", "+++ sponged", "+++ sponged")), as_tibble(stat.test$contrasts)) %>% add_significance()
+stat.c <- stat.c[1:3,]
 
+    # Plot
 gcs <- ggboxplot(miRNA_circRNA_Overlaps,
             x = "quartile",
             y = "circ.size",
             fill = "quartile",
+            width = 0.5,
+            outlier.shape = "",
             add = c("violin"),
-            add.params = list(alpha = 0.1, size = 0.5)) +
-  yscale("log2", .format = FALSE) + 
-  ylab("circRNA size (bp) -log2-") + xlab("") +
+            add.params = list(alpha = 0.1, size = 0.5)) +  
+  yscale(.scale = "log2") +
+  expand_limits(y = c(0, 1300000)) +
+  ylab("circRNA size -bp- (log2)") + xlab("") +
   theme_pubr(base_family = "Myriad Pro", base_size = 18, 
              legend = "none") +
+  stat_pvalue_manual(stat.c,
+                     label = "p.value.signif", 
+                     step_increase = 5, 
+                     y.position = c(15,16,17),
+                     tip.length = 0) +
   scale_fill_viridis(discrete = TRUE, alpha = 0.6, guide = "none", option = "D", direction = -1) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
         plot.margin = margin(c(50,70,22,10))) 
-  
 gcs 
 
 # ------------------------------------------------------------------------

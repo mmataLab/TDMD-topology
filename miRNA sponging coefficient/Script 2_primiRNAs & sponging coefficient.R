@@ -69,8 +69,9 @@ text <- data.frame(
 
 # Scatterplot of the pri-miR fold change vs the mature miRNA fold change, faceted by quartile
 
-gpri <- ggplot(data = df, aes(x = log2FoldChange_primiR, y = log2FoldChange_miR, color = quartile)) +
-  geom_point(alpha = 0.8) +
+gpri <- ggplot(data = df, aes(x = log2FoldChange_primiR, y = log2FoldChange_miR)) +
+  geom_point(alpha = 0.8, aes(color = quartile)) +
+  stat_cor(method = "pearson", size = 3) +
   geom_smooth(se = TRUE, method = lm, color = "gray", alpha = 0.2) +
   scale_color_viridis(discrete = TRUE, alpha = 0.6, option = "D", guide = "none", direction = -1) +
   facet_wrap(~ quartile, ncol = 2) +
@@ -82,7 +83,7 @@ gpri <- ggplot(data = df, aes(x = log2FoldChange_primiR, y = log2FoldChange_miR,
             aes(label = label), 
             x = -Inf, 
             y = Inf,
-            vjust = 1.7, 
+            vjust = 17, 
             hjust = -0.1,
             size = 3, 
             color = "grey30",

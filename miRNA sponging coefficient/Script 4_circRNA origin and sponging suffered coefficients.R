@@ -79,7 +79,7 @@ chisq.test(table_geneFeat_sp_w2)
 # Plot
 # ------------------------------------------------------------------------
 
-ggbarplot(table_geneFeat_sp, x = "Var2", y = "Percentage", fill = "Var1", xlab = "Sponging suffered") +
+ggbarplot(table_geneFeat_sp, x = "Var2", y = "Percentage", fill = "Var1", xlab = "") +
   scale_fill_viridis(discrete = TRUE, alpha = 0.6, option = "D", direction = -1) + 
   theme_pubr(base_family = "Myriad Pro", base_size = 18) + 
   theme(axis.text.x = element_text(angle = 45, hjust = 1),
